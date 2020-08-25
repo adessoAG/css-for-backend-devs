@@ -3,7 +3,7 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading>HTML UND CSS FÜRS BACKEND</Heading>
+        <Heading>HTML strukturiert den Inhalt einer Seite und gibt ihm Sinn.</Heading>
     );
 }
 export default SubHeading;

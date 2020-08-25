@@ -1,6 +1,5 @@
 import React from 'react';
 import { Deck, Slide } from 'spectacle';
-
 import Intro from './1.Intro';
 import Browser from './2.Browser';
 import HTMLIntro from './3.HTML-Intro';
@@ -10,14 +9,31 @@ import CSSIntro from './6.CSS-Intro';
 import CSSBasics from './7.CSS-Basics';
 import CSSAdvanced from './8.CSS-Advanced';
 import End from './9.End';
+import './App.css';
+
+const theme = {
+  colors: {
+    primary: 'rgb(0,0,0, 0.8)',
+    secondary: '#0275d8',
+    tertiary: '#ffffff'
+  },
+  fontSizes: {
+    header: '64px',
+    paragraph: '28px'
+  },
+  size: {
+    width: 1733,
+    height: 800,
+  }
+};
 
 class App extends React.Component {
 
   render() {
     return (
-      <Deck transition={["zoom", "slide"]} transitionDuration={500}>
+      <Deck transition={["zoom", "slide"]} theme={theme} transitionDuration={500}>
         {/** Intro Section */}
-        <Slide><Intro.Heading /></Slide>
+        <Slide backgroundColor="secondary" color="tertiary"><Intro.Heading /></Slide>
         <Slide><Intro.FunnyStart /></Slide>
         <Slide><Intro.BrowserHosileEnvironment /></Slide>
         <Slide><Intro.Before /></Slide>
@@ -28,14 +44,14 @@ class App extends React.Component {
         <Slide><Intro.CSSLayoutAndDesign /></Slide>
         <Slide><Intro.JSOneLiner /></Slide>
         {/** Browser Section */}
-        <Slide><Browser.Heading /></Slide>
+        <Slide backgroundColor="secondary" color="tertiary"><Browser.Heading /></Slide>
         <Slide><Browser.ThisIsWeb /></Slide>
         <Slide><Browser.ThisWillBeWeb /></Slide>
         <Slide><Browser.DominancesInWebWorld /></Slide>
         <Slide><Browser.NothisIStimeless /></Slide>
         <Slide><Browser.TheresNoPerfectBrowser /></Slide>
         {/** HTMLIntro Section */}
-        <Slide><HTMLIntro.POSHHeading /></Slide>
+        <Slide backgroundColor="secondary" color="tertiary"><HTMLIntro.POSHHeading /></Slide>
         <Slide><HTMLIntro.HTMLHistory /></Slide>
         <Slide><HTMLIntro.SemanticsHTML /></Slide>
         {/** HTMLBasics Section */}

@@ -1,9 +1,17 @@
 import React from 'react';
-import { Heading } from 'spectacle';
+import { Heading, UnorderedList, ListItem } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading>HTML UND CSS FÜRS BACKEND</Heading>
+        <>
+            <Heading>Es wird niemals gleiche und perfekte Browser geben!</Heading>
+            <UnorderedList>
+                <ListItem>Ein Browser beherrscht ein Feature <mark>nicht</mark>.</ListItem>
+                <ListItem>Es gibt einen <mark>Browser-Bug</mark>.</ListItem>
+                <ListItem>Ein Browser beherrscht <mark>alle Teile</mark> eines Features.</ListItem>
+                <ListItem>Ein Browser beherrscht <mark>nur Teile</mark> eines Features.</ListItem>
+            </UnorderedList>
+        </>
     );
 }
 export default SubHeading;

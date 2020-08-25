@@ -1,9 +1,12 @@
 import React from 'react';
-import { Quote } from 'spectacle';
+import { Quote, Text } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Quote>The browser is a hostile environment!</Quote>
+        <>
+            <Quote fontSize="h2" color="secondary">The browser is a hostile environment!</Quote>
+            <Text>-Douglas Crockford</Text>
+        </>
     );
 }
 export default SubHeading;
