@@ -3,7 +3,7 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading>HTML UND CSS FÜRS BACKEND</Heading>
+        <Heading>boxModel Image and link to codepen</Heading>
     );
 }
 export default SubHeading;

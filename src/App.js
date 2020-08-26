@@ -155,12 +155,20 @@ class App extends React.Component {
         <Slide><CSSAdvanced.AbsolutePosition /></Slide>
         <Slide><CSSAdvanced.AbsolutePositionWithoutZIndex /></Slide>
         <Slide><CSSAdvanced.AbsolutePositionWithZIndex /></Slide>
-        <Slide><CSSAdvanced.FixedOrStickyPostion /></Slide>
+        <Slide><CSSAdvanced.TheContextIsImp /></Slide>
+        <Slide><CSSAdvanced.RelativeWithZIndex /></Slide>
+        <Slide><CSSAdvanced.FixedOrSticky /></Slide>
         <Slide><CSSAdvanced.ZIndexJoke /></Slide>
         <Slide><CSSAdvanced.Aufgabe /></Slide>
         <Slide><CSSAdvanced.DisplayHeading /></Slide>
         <Slide><CSSAdvanced.DisplayDefinition /></Slide>
         <Slide><CSSAdvanced.DisplayOptions /></Slide>
+        <Slide><CSSAdvanced.HTMLDoesntShow /></Slide>
+        <Slide><CSSAdvanced.TableOptics /></Slide>
+        <Slide><CSSAdvanced.Navigation /></Slide>
+        <Slide><CSSAdvanced.HTMLExample /></Slide>
+        <Slide><CSSAdvanced.CSSExample /></Slide>
+        <Slide><CSSAdvanced.Result /></Slide>
         {/** Flexbox and Grid Section */}
         <Slide><FlexBoxAndGrid.FlexBoxHeading /></Slide>
         <Slide><FlexBoxAndGrid.GridHeading /></Slide>

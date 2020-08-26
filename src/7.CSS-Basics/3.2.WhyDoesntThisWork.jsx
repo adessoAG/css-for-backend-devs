@@ -3,7 +3,7 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading>HTML UND CSS FÜRS BACKEND</Heading>
+        <Heading>Why Doesn't my CSS Rule work</Heading>
     );
 }
 export default SubHeading;

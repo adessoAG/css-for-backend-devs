@@ -5,14 +5,16 @@ import lightTheme from 'prism-react-renderer/themes/nightOwlLight';
 function SubHeading() {
     return (
         <div className="centered-image">
-            <Heading>Wohin positionieren?</Heading>
+            <Heading>Der Kontext ist wichtig!</Heading>
             <CodePane language="css" theme={lightTheme}>
-                {`
-           .alle-4-richtungen {
-            top: 10px;
-            right: 0;
-            bottom: 1em;
-            left: 20%;
+                {`.der-wrapper {
+            position: relative;
+        }
+        
+        .innendrin {
+            position: absolute;
+            top: 20px;
+            right: 20px;
         }
               `}
             </CodePane>

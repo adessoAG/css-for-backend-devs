@@ -3,7 +3,7 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading>HTML UND CSS FÜRS BACKEND</Heading>
+        <Heading className="centered-image" fontSize="h2">Wir sind ständig dabei, die <mark>Darstellung</mark> eines Inhalts mit CSS zu verändern.</Heading>
     );
 }
 export default SubHeading;

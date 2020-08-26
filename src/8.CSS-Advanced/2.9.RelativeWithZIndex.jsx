@@ -5,16 +5,13 @@ import lightTheme from 'prism-react-renderer/themes/nightOwlLight';
 function SubHeading() {
     return (
         <div className="centered-image">
-            <Heading>Der Standard</Heading>
+            <Heading>Relative Positionierung</Heading>
             <CodePane language="css" theme={lightTheme}>
-                {`
-           .test {
-            position: static;
-        }
-              `}
+                {`.test {
+    position: relative;
+}`}
             </CodePane>
-            <Text>Nur in diesem Fall sind die vier Richtungen <mark>komplett wirkungslos</mark>.</Text>
-            <Text>Wenn ein Element <mark>nicht positioniert wurde</mark>, ist es statisch positioniert.</Text>
+            <Text>Das Element bleibt im Dokumentenfluss, kann aber einfach verschoben werden. Die Eigenschaft <mark><code>z-index</code></mark> kann in diesem Zusamenhang wichtig sein.</Text>
         </div>
     );
 }

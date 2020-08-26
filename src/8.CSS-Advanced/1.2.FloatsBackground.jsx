@@ -3,7 +3,7 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading>HTML UND CSS FÜRS BACKEND</Heading>
+        <Heading fontSize="h3" className="centered-image">Floats waren eigentlich dafür gedacht, Bilder innerhalb von Absätzen zur Seite "fliessen" zu lassen.</Heading>
     );
 }
 export default SubHeading;
