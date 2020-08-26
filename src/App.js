@@ -176,8 +176,8 @@ class App extends React.Component {
         {/** End Section */}
         <Slide><End.ProgressiveEnhancementIntro /></Slide>
         <Slide><End.ProgressiveEnhancementExample /></Slide>
-        <Slide><End.CSSReset /></Slide>
-        <Slide><End.CSSNormalize /></Slide>
+        <Slide><End.CSSResetOrNormalizationHeading /></Slide>
+        <Slide><End.CSSResetOrNormalizationContext /></Slide>
         <Slide><End.ThankYou /></Slide>
       </Deck>
     );
