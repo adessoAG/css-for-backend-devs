@@ -1,5 +1,5 @@
 import React from 'react';
-import { Deck, Slide } from 'spectacle';
+import { Deck, Slide, FlexBox, Box, FullScreen, Image } from 'spectacle';
 import Intro from './1.Intro';
 import Browser from './2.Browser';
 import HTMLIntro from './3.HTML-Intro';
@@ -9,7 +9,25 @@ import CSSIntro from './6.CSS-Intro';
 import CSSBasics from './7.CSS-Basics';
 import CSSAdvanced from './8.CSS-Advanced';
 import End from './9.End';
+import htm from 'htm';
 import './App.css';
+
+const html = htm.bind(React.createElement);
+
+const template = ({ slideNumber }) => {
+  const img = slideNumber === 0 ? 'logo/adesso-logo.svg' : 'logo/adesso-logo-small.png';
+  return html`
+  <${FlexBox} color="red" justifyContent="space-between" position="fixed" top=${0} right=${0}>
+    <${Box} height="40px" width="106px" padding="1em">
+      <${Image} src="${img}" />
+    </${Box}>
+  </${FlexBox}>
+  <${FlexBox} color="red" justifyContent="space-between" position="absolute" bottom=${0} width=${1}>
+    <${Box} padding="0 1em">
+      <${FullScreen} />
+    </${Box}>
+  </${FlexBox}>`;
+}
 
 const theme = {
   colors: {
@@ -31,9 +49,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <Deck transition={["zoom", "slide"]} theme={theme} transitionDuration={500}>
+      <Deck transition={["zoom", "slide"]} template={template} theme={theme} transitionDuration={500}>
         {/** Intro Section */}
-        <Slide backgroundColor="secondary" color="tertiary"><Intro.Heading /></Slide>
+        <Slide><Intro.Heading /></Slide>
         <Slide><Intro.FunnyStart /></Slide>
         <Slide><Intro.BrowserHosileEnvironment /></Slide>
         <Slide><Intro.Before /></Slide>
@@ -44,16 +62,19 @@ class App extends React.Component {
         <Slide><Intro.CSSLayoutAndDesign /></Slide>
         <Slide><Intro.JSOneLiner /></Slide>
         {/** Browser Section */}
-        <Slide backgroundColor="secondary" color="tertiary"><Browser.Heading /></Slide>
+        <Slide><Browser.Heading /></Slide>
         <Slide><Browser.ThisIsWeb /></Slide>
         <Slide><Browser.ThisWillBeWeb /></Slide>
         <Slide><Browser.DominancesInWebWorld /></Slide>
         <Slide><Browser.NothisIStimeless /></Slide>
         <Slide><Browser.TheresNoPerfectBrowser /></Slide>
         {/** HTMLIntro Section */}
-        <Slide backgroundColor="secondary" color="tertiary"><HTMLIntro.POSHHeading /></Slide>
+        <Slide><HTMLIntro.POSHHeading /></Slide>
         <Slide><HTMLIntro.HTMLHistory /></Slide>
+        <Slide><HTMLIntro.DecentMarkup /></Slide>
         <Slide><HTMLIntro.SemanticsHTML /></Slide>
+        <Slide><HTMLIntro.SemanticsHTML2 /></Slide>
+        <Slide><HTMLIntro.SemanticsHTML3 /></Slide>
         {/** HTMLBasics Section */}
         <Slide><HTMLBasics.Heading /></Slide>
         <Slide><HTMLBasics.Doctype /></Slide>
