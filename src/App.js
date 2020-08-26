@@ -8,7 +8,8 @@ import HTMLAdvanced from './5.HTML-Advanced';
 import CSSIntro from './6.CSS-Intro';
 import CSSBasics from './7.CSS-Basics';
 import CSSAdvanced from './8.CSS-Advanced';
-import End from './9.End';
+import FlexBoxAndGrid from './9.FlexBoxAndGrid';
+import End from './10.End';
 import htm from 'htm';
 import './App.css';
 
@@ -158,6 +159,10 @@ class App extends React.Component {
         <Slide><CSSAdvanced.DisplayHeading /></Slide>
         <Slide><CSSAdvanced.DisplayDefinition /></Slide>
         <Slide><CSSAdvanced.DisplayOptions /></Slide>
+        {/** Flexbox and Grid Section */}
+        <Slide><FlexBoxAndGrid.FlexBoxHeading /></Slide>
+        <Slide><FlexBoxAndGrid.GridHeading /></Slide>
+
         {/** End Section */}
         <Slide><End.ProgressiveEnhancementIntro /></Slide>
         <Slide><End.ProgressiveEnhancementExample /></Slide>
