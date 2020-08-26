@@ -1,9 +1,25 @@
 import React from 'react';
-import { Heading } from 'spectacle';
+import { Heading, CodePane } from 'spectacle';
+import lightTheme from 'prism-react-renderer/themes/nightOwlLight';
 
 function SubHeading() {
     return (
-        <Heading>HTML UND CSS FÜRS BACKEND</Heading>
+        <div className="centered-image">
+            <Heading>Der Tabellenkopf</Heading>
+            <CodePane language="html" theme={lightTheme}>
+                {`
+               <table>
+               <thead>
+                   <tr>
+                       <th></th>
+                       <th></th>
+                   </tr>
+               </thead>
+                   <!-- ..... -->
+           </table>
+              `}
+            </CodePane>
+        </div>
     );
 }
 export default SubHeading;

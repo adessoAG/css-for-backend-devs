@@ -8,6 +8,7 @@ import TableHead from './2.3.TableHead';
 import TableBody from './2.4.TableBody';
 import TableFooter from './2.5.TableFooter';
 import TableCSSProperties from './2.6.TableCSSProperties';
+import TableCSSProperties2 from './2.7.TableCSSProperties2';
 import FormHeading from './3.1.FormHeading';
 import FormExample from './3.2.FormExample';
 import FormLabel from './3.3.FormLabel';
@@ -15,6 +16,7 @@ import FormStructure from './3.4.FormStructure';
 import FormValidation from './3.5.FormValidation';
 import FormCrossBrowser from './3.6.FormCrossBrowser';
 import CheckboxForm from './3.7.CheckboxForm';
+import Aufgabe from './3.8.Aufgabe';
 
 const HTMLAdvanced = {
     NavigationHeading,
@@ -27,6 +29,7 @@ const HTMLAdvanced = {
     TableBody,
     TableFooter,
     TableCSSProperties,
+    TableCSSProperties2,
     FormHeading,
     FormExample,
     FormLabel,
@@ -34,5 +37,6 @@ const HTMLAdvanced = {
     FormValidation,
     FormCrossBrowser,
     CheckboxForm,
+    Aufgabe
 };
 export default HTMLAdvanced;

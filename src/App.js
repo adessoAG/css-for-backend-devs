@@ -102,6 +102,7 @@ class App extends React.Component {
         <Slide><HTMLAdvanced.TableBody /></Slide>
         <Slide><HTMLAdvanced.TableFooter /></Slide>
         <Slide><HTMLAdvanced.TableCSSProperties /></Slide>
+        <Slide><HTMLAdvanced.TableCSSProperties2 /></Slide>
         <Slide><HTMLAdvanced.FormHeading /></Slide>
         <Slide><HTMLAdvanced.FormExample /></Slide>
         <Slide><HTMLAdvanced.FormLabel /></Slide>
@@ -109,6 +110,7 @@ class App extends React.Component {
         <Slide><HTMLAdvanced.FormValidation /></Slide>
         <Slide><HTMLAdvanced.FormCrossBrowser /></Slide>
         <Slide><HTMLAdvanced.CheckboxForm /></Slide>
+        <Slide><HTMLAdvanced.Aufgabe /></Slide>
         {/** CSSIntro Section */}
         <Slide><CSSIntro.Heading /></Slide>
         <Slide><CSSIntro.CSSHistory /></Slide>

@@ -1,9 +1,9 @@
 import React from 'react';
-import { Heading } from 'spectacle';
+import { Text } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading>HTML UND CSS FÜRS BACKEND</Heading>
+        <Text className="centered-image">Formularelemente kommen immer in Begleitung eines Labels!</Text>
     );
 }
 export default SubHeading;

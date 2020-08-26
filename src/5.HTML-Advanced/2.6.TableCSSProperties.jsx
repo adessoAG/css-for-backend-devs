@@ -1,9 +1,10 @@
 import React from 'react';
-import { Heading } from 'spectacle';
+import { Text } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading>HTML UND CSS FÜRS BACKEND</Heading>
+        <Text className="centered-image">Und Tabellen sehen so aus, wie wir es erwarten, weil CSS dafür sorgt.
+        Diese Regeln kann man überschreiben.</Text>
     );
 }
 export default SubHeading;
