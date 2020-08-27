@@ -7,14 +7,12 @@ function SubHeading() {
         <div className="centered-image">
             <Heading>Wohin positionieren?</Heading>
             <CodePane language="css" theme={lightTheme}>
-                {`
-           .alle-4-richtungen {
-            top: 10px;
-            right: 0;
-            bottom: 1em;
-            left: 20%;
-        }
-              `}
+                {`.alle-4-richtungen {
+    top: 10px;
+    right: 0;
+    bottom: 1em;
+    left: 20%;
+}`}
             </CodePane>
         </div>
     );

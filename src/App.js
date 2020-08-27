@@ -172,6 +172,7 @@ class App extends React.Component {
         <Slide><CSSAdvanced.RelativeWithZIndex /></Slide>
         <Slide><CSSAdvanced.FixedOrSticky /></Slide>
         <Slide><CSSAdvanced.ZIndexJoke /></Slide>
+        <Slide><CSSAdvanced.Codepen /></Slide>
         <Slide><CSSAdvanced.Aufgabe /></Slide>
         <Slide><CSSAdvanced.DisplayHeading /></Slide>
         <Slide><CSSAdvanced.DisplayDefinition /></Slide>

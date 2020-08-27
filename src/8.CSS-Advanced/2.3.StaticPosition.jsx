@@ -7,11 +7,9 @@ function SubHeading() {
         <div className="centered-image">
             <Heading>Der Standard</Heading>
             <CodePane language="css" theme={lightTheme}>
-                {`
-           .test {
-            position: static;
-        }
-              `}
+                {`.test {
+    position: static;
+}`}
             </CodePane>
             <Text>Nur in diesem Fall sind die vier Richtungen <mark>komplett wirkungslos</mark>.</Text>
             <Text>Wenn ein Element <mark>nicht positioniert wurde</mark>, ist es statisch positioniert.</Text>

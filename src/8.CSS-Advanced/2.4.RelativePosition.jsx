@@ -7,11 +7,9 @@ function SubHeading() {
         <div className="centered-image">
             <Heading>Relative Positionierung</Heading>
             <CodePane language="css" theme={lightTheme}>
-                {`
-           .test {
-            position: relative;
-        }
-              `}
+                {`.test {
+    position: relative;
+}`}
             </CodePane>
             <Text>Das Element bleibt im Dokumentenfluss, kann aber einfach verschoben werden. Die Eigenschaft <mark><code>z-index</code></mark> kann in diesem Zusamenhang wichtig sein.</Text>
         </div>

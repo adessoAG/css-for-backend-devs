@@ -6,8 +6,7 @@ function SubHeading() {
     return (
         <div className="centered-image">
             <CodePane language="css" theme={lightTheme}>
-                {`
-.icon--color-disabled {
+                {`.icon--color-disabled {
     opacity: 0.5; /* only IE11 */
 }
 
@@ -16,8 +15,7 @@ function SubHeading() {
         opacity: 1;
         filter: grayscale(100%) opacity(50%);
     }
-}
-              `}
+}`}
             </CodePane>
         </div>
     );
