@@ -4,7 +4,7 @@ import lightTheme from 'prism-react-renderer/themes/nightOwlLight';
 
 function SubHeading() {
     return (
-        <div className="centered-image">
+        <div className="centered">
             <CodePane language="html" theme={lightTheme}>
                 {`<div class="form">
     <label for="id-1">Label für das Formularelement</label>

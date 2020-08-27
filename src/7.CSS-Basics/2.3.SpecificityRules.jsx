@@ -3,16 +3,15 @@ import { Heading, UnorderedList, ListItem } from 'spectacle';
 
 function SubHeading() {
     return (
-        <div className="centered-image">
+        <div className="centered">
             <Heading>Spezifitätsregeln</Heading>
             <UnorderedList>
-                <ListItem>Universal Selektoren hat keine Stärke</ListItem>
-                <ListItem>Elemente / Pseudo Elemente Selektoren =&gt; 1 pt</ListItem>
-                <ListItem>Klassen / Pseudo Klassen / Attribute Selektoren =&gt; 10 pt</ListItem>
-                <ListItem>Id Selector =&gt; 100 pt</ListItem>
-                <ListItem>Inline Styles =&gt; 1000 pt</ListItem>
-                <ListItem>!important =&gt; 10000 pt</ListItem>
-                <ListItem>:(not) selektor hat keine Stärke</ListItem>
+                <ListItem>Universal / :(not) Selektoren hat keine Stärke  → 0pt.</ListItem>
+                <ListItem>Elemente / Pseudo Elemente Selektoren → 1 pt.</ListItem>
+                <ListItem>Klassen / Pseudo Klassen / Attribute Selektoren → 10 pt.</ListItem>
+                <ListItem>Id Selector → 100 pt.</ListItem>
+                <ListItem>Inline Styles → 1000 pt.</ListItem>
+                <ListItem>!important → 10000 pt.</ListItem>
             </UnorderedList>
         </div>
     );

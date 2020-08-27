@@ -3,7 +3,7 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading className="centered-image">Absicht einer Regel</Heading>
+        <Heading className="centered">Absicht einer Regel</Heading>
     );
 }
 export default SubHeading;

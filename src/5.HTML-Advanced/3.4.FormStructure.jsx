@@ -3,7 +3,7 @@ import { Heading, UnorderedList, ListItem } from 'spectacle';
 
 function SubHeading() {
     return (
-        <div className="centered-image">
+        <div className="centered">
             <Heading>Strukturierung</Heading>
             <UnorderedList>
                 <ListItem>Formularelemente passen semantisch nicht in <code>p</code>-Tags.</ListItem>

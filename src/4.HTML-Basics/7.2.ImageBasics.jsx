@@ -4,7 +4,7 @@ import lightTheme from 'prism-react-renderer/themes/nightOwlLight';
 
 function SubHeading() {
     return (
-        <div className="centered-image">
+        <div className="centered">
             <Heading fontSize="h2">Basics</Heading>
             <CodePane language="html" theme={lightTheme}>
                 {`<img src="http://lorempizza.com/300/300"

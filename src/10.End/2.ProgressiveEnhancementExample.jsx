@@ -4,7 +4,7 @@ import lightTheme from 'prism-react-renderer/themes/nightOwlLight';
 
 function SubHeading() {
     return (
-        <div className="centered-image">
+        <div className="centered">
             <CodePane language="css" theme={lightTheme}>
                 {`.icon--color-disabled {
     opacity: 0.5; /* only IE11 */

@@ -3,7 +3,7 @@ import { Heading, UnorderedList, ListItem, Text, Link } from 'spectacle';
 
 function SubHeading() {
     return (
-        <div className="centered-image">
+        <div className="centered">
             <Heading>CSS Pseudo Elements</Heading>
             <Text>statt einzelen Zustände ermöglichen Sie das gestalten eines einzelnen Teils von einem Element</Text>
             <UnorderedList>

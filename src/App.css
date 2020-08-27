@@ -2,9 +2,19 @@ body {
   background-color: white !important;
 }
 
-.centered-image {
+.centered {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.hori-centered {
+  display: block;
+  margin: 0 auto;
+}
+
+.fill-heading {
+  background: rgb(2,117,216, 0.2);
+  color: white;
 }

@@ -3,7 +3,7 @@ import { Heading, UnorderedList, ListItem, Text, Link } from 'spectacle';
 
 function SubHeading() {
     return (
-        <div className="centered-image">
+        <div className="centered">
             <Heading>Möglichkeiten des Clearings</Heading>
             <UnorderedList>
                 <ListItem>Der Elterncontainer des/der Floats bekommt ein <code>overflow: hidden</code>.</ListItem>

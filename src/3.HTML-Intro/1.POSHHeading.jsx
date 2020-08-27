@@ -3,7 +3,7 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading className="centered-image">POSH (Plain Old Semantic HTML)</Heading>
+        <Heading className="centered">POSH (Plain Old Semantic HTML)</Heading>
     );
 }
 export default SubHeading;

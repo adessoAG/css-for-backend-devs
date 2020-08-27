@@ -5,7 +5,7 @@ import '../prism.css';
 
 function SubHeading() {
     return (
-        <div className="centered-image">
+        <div className="centered">
             <Heading fontSize="h3">Sehr wichtige Bestandteile des HEAD</Heading>
             <CodePane language="html" theme={lightTheme}>
                 {`<!DOCTYPE html>

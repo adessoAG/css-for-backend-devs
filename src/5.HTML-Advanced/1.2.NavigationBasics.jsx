@@ -4,7 +4,7 @@ import lightTheme from 'prism-react-renderer/themes/nightOwlLight';
 
 function SubHeading() {
     return (
-        <div className="centered-image">
+        <div className="centered">
             <Heading>Basics</Heading>
             <CodePane language="html" theme={lightTheme}>
                 {`<nav class="main-nav">

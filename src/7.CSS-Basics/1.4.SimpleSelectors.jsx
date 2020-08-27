@@ -1,16 +1,16 @@
 import React from 'react';
-import { Heading, UnorderedList, ListItem } from 'spectacle';
+import { Heading, UnorderedList, ListItem, Appear } from 'spectacle';
 
 function SubHeading() {
     return (
-        <div className="centered-image">
+        <div className="centered">
             <Heading fontSize="h3">Simple Selektoren</Heading>
             <UnorderedList>
-                <ListItem>Universal Selektor =&gt; *</ListItem>
-                <ListItem>Type Selektor =&gt; div, span, img</ListItem>
-                <ListItem>Class Selektor =&gt; .banana, .lol</ListItem>
-                <ListItem>Id Selektor =&gt; #banana, #lol</ListItem>
-                <ListItem>Attribute Selektor =&gt; data-, lang, title</ListItem>
+                <Appear><ListItem>Universal Selektor → *</ListItem></Appear>
+                <Appear><ListItem>Type Selektor → div, span, img</ListItem></Appear>
+                <Appear><ListItem>Class Selektor → .banana, .lol</ListItem></Appear>
+                <Appear><ListItem>Id Selektor → #banana, #lol</ListItem></Appear>
+                <Appear><ListItem>Attribute Selektor → [data-modal="open"], input[type="checkbox"], title</ListItem></Appear>
             </UnorderedList>
         </div>
     );

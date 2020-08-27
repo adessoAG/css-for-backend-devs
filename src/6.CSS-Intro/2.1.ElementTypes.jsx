@@ -3,7 +3,7 @@ import { Heading, UnorderedList, ListItem } from 'spectacle';
 
 function SubHeading() {
     return (
-        <div className="centered-image">
+        <div className="centered">
             <Heading>HTML Elemente</Heading>
             <UnorderedList>
                 <ListItem>Block Level elemente</ListItem>

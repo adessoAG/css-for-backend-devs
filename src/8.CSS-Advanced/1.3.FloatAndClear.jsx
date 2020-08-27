@@ -3,7 +3,7 @@ import { Text, Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <div className="centered-image">
+        <div className="centered">
             <Heading>Float und clear</Heading>
             <Text>Dinge können nach links oder rechts gefloatet werden. Ausserdem kann man mit <code>float:none</code> ein Floating wieder beenden. Mehr Entscheidungen existeren nicht.</Text>
             <Text>Ein Float wird aus dem Dokumentenfluss gezogen, die nachfolgenden Elemente wissen nichts von seiner Existenz.</Text>

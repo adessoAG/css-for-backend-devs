@@ -4,7 +4,7 @@ import lightTheme from 'prism-react-renderer/themes/nightOwlLight';
 
 function SubHeading() {
     return (
-        <div className="centered-image">
+        <div className="centered">
             <Heading>Relative Positionierung</Heading>
             <CodePane language="css" theme={lightTheme}>
                 {`.test {

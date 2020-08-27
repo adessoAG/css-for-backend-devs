@@ -3,7 +3,7 @@ import { Heading, Image } from 'spectacle';
 
 function SubHeading() {
     return (
-        <div className="centered-image">
+        <div className="centered">
             <Heading fontSize="h3">Der Aufbau einer Regel</Heading>
             <Image src="frontend/css-terminologie.png"></Image>
         </div>

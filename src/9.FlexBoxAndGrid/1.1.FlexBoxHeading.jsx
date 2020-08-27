@@ -3,7 +3,7 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading>FlexBox</Heading>
+        <Heading className="centered">FlexBox</Heading>
     );
 }
 export default SubHeading;

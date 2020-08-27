@@ -3,7 +3,7 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading className="centered-image">Navigation</Heading>
+        <Heading className="centered">Navigation</Heading>
     );
 }
 export default SubHeading;

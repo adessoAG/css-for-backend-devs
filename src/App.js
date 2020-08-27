@@ -17,10 +17,12 @@ const html = htm.bind(React.createElement);
 
 const template = ({ slideNumber }) => {
   const img = slideNumber === 0 ? 'logo/adesso-logo.svg' : 'logo/adesso-logo-small.png';
+  const width = slideNumber === 0 ? '106' : '70';
+  const height = slideNumber === 0 ? '40' : '70';
   return html`
-  <${FlexBox} color="red" justifyContent="space-between" position="fixed" top=${0} right=${0}>
-    <${Box} height="40px" width="106px" padding="1em">
-      <${Image} src="${img}" />
+  <${FlexBox} color="red" justifyContent="space-between" position="fixed" right=${0}>
+    <${Box}  padding="1em">
+      <${Image} height="${height}px" width="${width}px" src="${img}" />
     </${Box}>
   </${FlexBox}>
   <${FlexBox} color="red" justifyContent="space-between" position="absolute" bottom=${0} width=${1}>
@@ -34,7 +36,8 @@ const theme = {
   colors: {
     primary: 'rgb(0,0,0, 0.8)',
     secondary: '#0275d8',
-    tertiary: '#ffffff'
+    tertiary: '#ffffff',
+    headSlide: 'rgb(2,117,216, 0.1)'
   },
   fontSizes: {
     h1: '72px',
@@ -44,7 +47,7 @@ const theme = {
     monospace: '20px'
   },
   fonts: {
-    header: '"AdessoFont", "Helvetica Neue", Helvetica, Arial, sans-serif',
+    header: '"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif',
     text: '"Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif',
     monospace: '"Consolas", "Menlo", monospace'
   },
@@ -60,7 +63,7 @@ class App extends React.Component {
     return (
       <Deck transition={["zoom", "slide"]} template={template} theme={theme} transitionDuration={500}>
         {/** Intro Section */}
-        <Slide><Intro.Heading /></Slide>
+        <Slide backgroundColor="headSlide"><Intro.Heading /></Slide>
         <Slide><Intro.FunnyStart /></Slide>
         <Slide><Intro.BrowserHosileEnvironment /></Slide>
         <Slide><Intro.Before /></Slide>
@@ -71,47 +74,47 @@ class App extends React.Component {
         <Slide><Intro.CSSLayoutAndDesign /></Slide>
         <Slide><Intro.JSOneLiner /></Slide>
         {/** Browser Section */}
-        <Slide><Browser.Heading /></Slide>
+        <Slide backgroundColor="headSlide"><Browser.Heading /></Slide>
         <Slide><Browser.ThisIsWeb /></Slide>
         <Slide><Browser.ThisWillBeWeb /></Slide>
         <Slide><Browser.DominancesInWebWorld /></Slide>
         <Slide><Browser.NothisIStimeless /></Slide>
         <Slide><Browser.TheresNoPerfectBrowser /></Slide>
         {/** HTMLIntro Section */}
-        <Slide><HTMLIntro.POSHHeading /></Slide>
+        <Slide backgroundColor="headSlide"><HTMLIntro.POSHHeading /></Slide>
         <Slide><HTMLIntro.HTMLHistory /></Slide>
         <Slide><HTMLIntro.DecentMarkup /></Slide>
         <Slide><HTMLIntro.SemanticsHTML /></Slide>
         <Slide><HTMLIntro.SemanticsHTML2 /></Slide>
         <Slide><HTMLIntro.SemanticsHTML3 /></Slide>
         {/** HTMLBasics Section */}
-        <Slide><HTMLBasics.Heading /></Slide>
+        <Slide backgroundColor="headSlide"><HTMLBasics.Heading /></Slide>
         <Slide><HTMLBasics.Doctype /></Slide>
         <Slide><HTMLBasics.HTMLStructure /></Slide>
         <Slide><HTMLBasics.PeriodicTable /></Slide>
         <Slide><HTMLBasics.Head /></Slide>
         <Slide><HTMLBasics.HeadExample /></Slide>
         <Slide><HTMLBasics.ValidIsNotRight /></Slide>
-        <Slide><HTMLBasics.ImagesHeading /></Slide>
+        <Slide backgroundColor="headSlide"><HTMLBasics.ImagesHeading /></Slide>
         <Slide><HTMLBasics.ImageBasics /></Slide>
         <Slide><HTMLBasics.AltTagMeme /></Slide>
         <Slide><HTMLBasics.Figure /></Slide>
-        <Slide><HTMLBasics.ResponsiveImageHeading /></Slide>
+        <Slide backgroundColor="headSlide"><HTMLBasics.ResponsiveImageHeading /></Slide>
         <Slide><HTMLBasics.Picture /></Slide>
         <Slide><HTMLBasics.SrcSet /></Slide>
         {/** HTMLAdvanced Section */}
-        <Slide><HTMLAdvanced.NavigationHeading /></Slide>
+        <Slide backgroundColor="headSlide"><HTMLAdvanced.NavigationHeading /></Slide>
         <Slide><HTMLAdvanced.NavigationBasics /></Slide>
         <Slide><HTMLAdvanced.NavigationMoreInfo /></Slide>
         <Slide><HTMLAdvanced.NotEverytingIsNavigation /></Slide>
-        <Slide><HTMLAdvanced.TableHeading /></Slide>
+        <Slide backgroundColor="headSlide"><HTMLAdvanced.TableHeading /></Slide>
         <Slide><HTMLAdvanced.TableSkeleton /></Slide>
         <Slide><HTMLAdvanced.TableHead /></Slide>
         <Slide><HTMLAdvanced.TableBody /></Slide>
         <Slide><HTMLAdvanced.TableFooter /></Slide>
         <Slide><HTMLAdvanced.TableCSSProperties /></Slide>
         <Slide><HTMLAdvanced.TableCSSProperties2 /></Slide>
-        <Slide><HTMLAdvanced.FormHeading /></Slide>
+        <Slide backgroundColor="headSlide"><HTMLAdvanced.FormHeading /></Slide>
         <Slide><HTMLAdvanced.FormExample /></Slide>
         <Slide><HTMLAdvanced.FormLabel /></Slide>
         <Slide><HTMLAdvanced.FormStructure /></Slide>
@@ -120,22 +123,22 @@ class App extends React.Component {
         <Slide><HTMLAdvanced.CheckboxForm /></Slide>
         <Slide><HTMLAdvanced.Aufgabe /></Slide>
         {/** CSSIntro Section */}
-        <Slide><CSSIntro.Heading /></Slide>
+        <Slide backgroundColor="headSlide"><CSSIntro.Heading /></Slide>
         <Slide><CSSIntro.CSSHistory /></Slide>
         <Slide><CSSIntro.ElementTypes /></Slide>
         <Slide><CSSIntro.BlockElement /></Slide>
         <Slide><CSSIntro.InlineElement /></Slide>
         <Slide><CSSIntro.AnatomyOfARule /></Slide>
         {/** CSSBasics Section */}
-        <Slide><CSSBasics.SelectorsHeading /></Slide>
+        <Slide backgroundColor="headSlide"><CSSBasics.SelectorsHeading /></Slide>
         <Slide><CSSBasics.LotOfWaysToSelect /></Slide>
         <Slide><CSSBasics.SimpleSelectors /></Slide>
         <Slide><CSSBasics.PseudoSelectors /></Slide>
-        <Slide><CSSBasics.PseudoElement /></Slide>
         <Slide><CSSBasics.PseudoClasses /></Slide>
+        <Slide><CSSBasics.PseudoElement /></Slide>
         <Slide><CSSBasics.ComplexSelectors /></Slide>
         <Slide><CSSBasics.CompoundSelectors /></Slide>
-        <Slide><CSSBasics.SpecificityHeading /></Slide>
+        <Slide backgroundColor="headSlide"><CSSBasics.SpecificityHeading /></Slide>
         <Slide><CSSBasics.SpecificityIntent /></Slide>
         <Slide><CSSBasics.SpecificityRules /></Slide>
         <Slide><CSSBasics.SpecificityExamples1 /></Slide>
@@ -146,22 +149,22 @@ class App extends React.Component {
         <Slide><CSSBasics.SpecificityExamples6 /></Slide>
         <Slide><CSSBasics.SpecificityExamples7 /></Slide>
         <Slide><CSSBasics.SpecificityExamples8 /></Slide>
-        <Slide><CSSBasics.CascadeHeading /></Slide>
+        <Slide backgroundColor="headSlide"><CSSBasics.CascadeHeading /></Slide>
         <Slide><CSSBasics.WhyDoesntThisWork /></Slide>
         <Slide><CSSBasics.LastShows /></Slide>
         <Slide><CSSBasics.LastShowsExample /></Slide>
         <Slide><CSSBasics.LastShowsExample2 /></Slide>
-        <Slide><CSSBasics.BoxModelHeading /></Slide>
+        <Slide backgroundColor="headSlide"><CSSBasics.BoxModelHeading /></Slide>
         <Slide><CSSBasics.BoxModelImage /></Slide>
         <Slide><CSSBasics.BoxModelScrollbars /></Slide>
         <Slide><CSSBasics.BoxModelScrollbars2 /></Slide>
         <Slide><CSSBasics.Aufgaben /></Slide>
         {/** CSSAdvanced Section */}
-        <Slide><CSSAdvanced.Floats /></Slide>
+        <Slide backgroundColor="headSlide"><CSSAdvanced.Floats /></Slide>
         <Slide><CSSAdvanced.FloatsBackground /></Slide>
         <Slide><CSSAdvanced.FloatAndClear /></Slide>
         <Slide><CSSAdvanced.Clearing /></Slide>
-        <Slide><CSSAdvanced.PositionHeading /></Slide>
+        <Slide backgroundColor="headSlide"><CSSAdvanced.PositionHeading /></Slide>
         <Slide><CSSAdvanced.PositionExample /></Slide>
         <Slide><CSSAdvanced.StaticPosition /></Slide>
         <Slide><CSSAdvanced.RelativePosition /></Slide>
@@ -174,7 +177,7 @@ class App extends React.Component {
         <Slide><CSSAdvanced.ZIndexJoke /></Slide>
         <Slide><CSSAdvanced.Codepen /></Slide>
         <Slide><CSSAdvanced.Aufgabe /></Slide>
-        <Slide><CSSAdvanced.DisplayHeading /></Slide>
+        <Slide backgroundColor="headSlide"><CSSAdvanced.DisplayHeading /></Slide>
         <Slide><CSSAdvanced.DisplayDefinition /></Slide>
         <Slide><CSSAdvanced.DisplayOptions /></Slide>
         <Slide><CSSAdvanced.HTMLDoesntShow /></Slide>
@@ -184,11 +187,11 @@ class App extends React.Component {
         <Slide><CSSAdvanced.CSSExample /></Slide>
         <Slide><CSSAdvanced.Result /></Slide>
         {/** Flexbox and Grid Section */}
-        <Slide><FlexBoxAndGrid.FlexBoxHeading /></Slide>
-        <Slide><FlexBoxAndGrid.GridHeading /></Slide>
+        <Slide backgroundColor="headSlide"><FlexBoxAndGrid.FlexBoxHeading /></Slide>
+        <Slide backgroundColor="headSlide"><FlexBoxAndGrid.GridHeading /></Slide>
 
         {/** End Section */}
-        <Slide><End.ProgressiveEnhancementIntro /></Slide>
+        <Slide backgroundColor="headSlide"><End.ProgressiveEnhancementIntro /></Slide>
         <Slide><End.ProgressiveEnhancementExample /></Slide>
         <Slide><End.CSSResetOrNormalizationHeading /></Slide>
         <Slide><End.CSSResetOrNormalizationContext /></Slide>

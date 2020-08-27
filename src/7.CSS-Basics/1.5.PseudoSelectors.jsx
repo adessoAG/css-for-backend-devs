@@ -3,11 +3,11 @@ import { Heading, UnorderedList, ListItem } from 'spectacle';
 
 function SubHeading() {
     return (
-        <div className="centered-image">
+        <div className="centered">
             <Heading fontSize="h3">Pseudo Selektoren</Heading>
             <UnorderedList>
-                <ListItem>Pseudo Elemente =&gt; ::before, ::after</ListItem>
-                <ListItem>Pseudo Klassen =&gt; :active, :visited</ListItem>
+                <ListItem>Pseudo Elemente → ::before, ::after</ListItem>
+                <ListItem>Pseudo Klassen → :active, :visited</ListItem>
             </UnorderedList>
         </div>
     );

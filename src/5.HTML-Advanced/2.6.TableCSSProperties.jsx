@@ -3,7 +3,7 @@ import { Text } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Text className="centered-image">Und Tabellen sehen so aus, wie wir es erwarten, weil CSS dafür sorgt.
+        <Text className="centered">Und Tabellen sehen so aus, wie wir es erwarten, weil CSS dafür sorgt.
         Diese Regeln kann man überschreiben.</Text>
     );
 }

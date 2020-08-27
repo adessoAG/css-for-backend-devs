@@ -5,8 +5,8 @@ import './inline.css';
 
 function SubHeading() {
     return (
-        <div className="centered-image">
-            <Heading>Block Elements</Heading>
+        <div className="centered">
+            <Heading>Block Elemente</Heading>
             <CodePane language="html" theme={lightTheme}>
                 {`
                 <div>Hello World</div>

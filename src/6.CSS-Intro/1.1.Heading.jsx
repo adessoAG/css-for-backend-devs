@@ -3,9 +3,9 @@ import { Heading, Image } from 'spectacle';
 
 function SubHeading() {
     return (
-        <div className="centered-image">
+        <div className="centered">
             <Heading fontSize="h3">CSS - die Seite hübsch machen</Heading>
-            <Image src="frontend/css-is-awesome.jpg" ></Image>
+            <Image className="hori-centered" src="frontend/css-is-awesome.jpg" ></Image>
         </div>
     );
 }
