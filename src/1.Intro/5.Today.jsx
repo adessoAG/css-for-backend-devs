@@ -5,7 +5,7 @@ function SubHeading() {
     return (
         <>
             <Heading fontSize="h2">Heute ...</Heading>
-            <UnorderedList>
+            <UnorderedList fontSize="35px">
                 <ListItem>npm init / yarn init</ListItem>
                 <ListItem>Webpack, Grunt, Gulp?</ListItem>
                 <ListItem>HTML Templatesprache auswählen und nutzen</ListItem>

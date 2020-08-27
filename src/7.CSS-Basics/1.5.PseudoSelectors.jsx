@@ -1,9 +1,15 @@
 import React from 'react';
-import { Heading } from 'spectacle';
+import { Heading, UnorderedList, ListItem } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading>Pseudo Selectors</Heading>
+        <div className="centered-image">
+            <Heading fontSize="h3">Pseudo Selektoren</Heading>
+            <UnorderedList>
+                <ListItem>Pseudo Elemente =&gt; ::before, ::after</ListItem>
+                <ListItem>Pseudo Klassen =&gt; :active, :visited</ListItem>
+            </UnorderedList>
+        </div>
     );
 }
 export default SubHeading;

@@ -7,20 +7,18 @@ function SubHeading() {
         <div className="centered-image">
             <Heading fontSize="h2">Ein Bild in einem Figure-Element</Heading>
             <CodePane language="html" theme={lightTheme}>
-                {`
-                <figure>
+                {`<figure>
 
-                <img src="http://lorempizza.com/300/300"
-                     alt="Ein toller Alternativtext">
-              
-                <figcaption>
-                  <p>Ein toller Beschreibungstext für
-                     das Bild innerhalb des
-                     <code>figure</code>-Elements</p>
-                </figcaption>
-              
-              </figure>
-                `}
+    <img src="http://lorempizza.com/300/300"
+            alt="Ein toller Alternativtext">
+
+    <figcaption>
+        <p>Ein toller Beschreibungstext für
+            das Bild innerhalb des
+            <code>figure</code>-Elements</p>
+    </figcaption>
+
+</figure>`}
             </CodePane>
         </div>
     );

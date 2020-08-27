@@ -1,9 +1,12 @@
 import React from 'react';
-import { Heading } from 'spectacle';
+import { Heading, Image } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading>Anantomy of a Rule</Heading>
+        <div className="centered-image">
+            <Heading fontSize="h3">Der Aufbau einer Regel</Heading>
+            <Image src="frontend/css-terminologie.png"></Image>
+        </div>
     );
 }
 export default SubHeading;

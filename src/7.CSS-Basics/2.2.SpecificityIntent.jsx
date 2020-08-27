@@ -3,7 +3,7 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading>Intent of a rule</Heading>
+        <Heading className="centered-image">Absicht einer Regel</Heading>
     );
 }
 export default SubHeading;

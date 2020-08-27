@@ -4,7 +4,7 @@ import { Heading, UnorderedList, ListItem } from 'spectacle';
 function SubHeading() {
     return (
         <div className="centered-image">
-            <Heading>Es wird niemals gleiche und perfekte Browser geben!</Heading>
+            <Heading fontSize="h3">Es wird niemals gleiche und perfekte Browser geben!</Heading>
             <UnorderedList>
                 <ListItem>Ein Browser beherrscht ein Feature <mark>nicht</mark>.</ListItem>
                 <ListItem>Es gibt einen <mark>Browser-Bug</mark>.</ListItem>

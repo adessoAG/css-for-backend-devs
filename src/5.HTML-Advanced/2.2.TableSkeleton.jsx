@@ -7,19 +7,17 @@ function SubHeading() {
         <div className="centered-image">
             <Heading>Einzelne Ebenen einer Tabelle</Heading>
             <CodePane language="html" theme={lightTheme}>
-                {`
-                <table>
-                <thead>
-                    <!-- ..... -->
-                </thead>
-                <tbody>
-                    <!-- ..... -->
-                </tbody>
-                <tfoot>
-                    <!-- ..... -->
-                </tfoot>
-            </table>
-              `}
+                {`<table>
+    <thead>
+        <!-- ..... -->
+    </thead>
+    <tbody>
+        <!-- ..... -->
+    </tbody>
+    <tfoot>
+        <!-- ..... -->
+    </tfoot>
+</table>`}
             </CodePane>
         </div>
     );

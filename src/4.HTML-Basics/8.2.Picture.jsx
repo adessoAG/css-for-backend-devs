@@ -7,14 +7,12 @@ function SubHeading() {
         <div className="centered-image">
             <Heading fontSize="h2">Das <code>picture</code>-Element</Heading>
             <CodePane language="html" theme={lightTheme}>
-                {`
-                <picture>
-                <source media="(min-width: 800px)"
-                        srcset="big.jpg 1x, big-hd.jpg 2x">
-                <source srcset="small.jpg 1x, small-hd.jpg 2x">
-                <img src="fallback.jpg" alt="Tolle Bildbeschreibung">
-              </picture>
-                `}
+                {`<picture>
+    <source media="(min-width: 800px)"
+            srcset="big.jpg 1x, big-hd.jpg 2x">
+    <source srcset="small.jpg 1x, small-hd.jpg 2x">
+    <img src="fallback.jpg" alt="Tolle Bildbeschreibung">
+</picture>`}
             </CodePane>
             <Text>Die source-Elemente werden von oben nach unten gelesen. Alles unter 800px-Breite bekommt also die zweite Source. Oder das Fallback-Bild, wenn es die Elemente nicht kennt.</Text>
         </div>

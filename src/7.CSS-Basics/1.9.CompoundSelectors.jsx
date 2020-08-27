@@ -3,7 +3,9 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading>Compound Selectors</Heading>
+        <div className="centered-image">
+            <Heading>Compound Selektoren</Heading>
+        </div>
     );
 }
 export default SubHeading;

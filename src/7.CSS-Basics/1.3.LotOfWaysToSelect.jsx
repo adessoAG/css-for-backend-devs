@@ -3,7 +3,7 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading>There's many ways to select an element in the DOM</Heading>
+        <Heading fontSize="h3" className="centered-image">There's many ways to select an element in the DOM</Heading>
     );
 }
 export default SubHeading;

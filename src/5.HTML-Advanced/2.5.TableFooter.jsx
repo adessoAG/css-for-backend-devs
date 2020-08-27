@@ -7,23 +7,21 @@ function SubHeading() {
         <div className="centered-image">
             <Heading>Der Tabellen-Fuss</Heading>
             <CodePane language="html" theme={lightTheme}>
-                {`
-             <table>
-             <thead>
-                 <!-- ..... -->
-             </thead>
-             <tbody>
-                 <!-- ..... -->
-             </tbody>
-         
-             <tfoot>
-                 <tr>
-                     <td></td>
-                     <td></td>
-                 </tr>
-             </tfoot>
-         </table>
-              `}
+                {`<table>
+    <thead>
+        <!-- ..... -->
+    </thead>
+    <tbody>
+        <!-- ..... -->
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </tfoot>
+</table>`}
             </CodePane>
         </div>
     );

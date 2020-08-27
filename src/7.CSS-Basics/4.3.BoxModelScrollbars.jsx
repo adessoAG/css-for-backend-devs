@@ -3,7 +3,7 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading>Where do scrollbars go?</Heading>
+        <Heading className="centered-image">Woher sollten die scrollbalkon sein? <span role="img" aria-label="confused">🤔</span></Heading>
     );
 }
 export default SubHeading;

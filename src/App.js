@@ -37,8 +37,16 @@ const theme = {
     tertiary: '#ffffff'
   },
   fontSizes: {
-    header: '64px',
-    paragraph: '28px'
+    h1: '72px',
+    h2: '64px',
+    h3: '56px',
+    text: '35px',
+    monospace: '20px'
+  },
+  fonts: {
+    header: '"AdessoFont", "Helvetica Neue", Helvetica, Arial, sans-serif',
+    text: '"Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif',
+    monospace: '"Consolas", "Menlo", monospace'
   },
   size: {
     width: 1733,
@@ -115,29 +123,34 @@ class App extends React.Component {
         <Slide><CSSIntro.Heading /></Slide>
         <Slide><CSSIntro.CSSHistory /></Slide>
         <Slide><CSSIntro.ElementTypes /></Slide>
-        <Slide><CSSIntro.InlineElement /></Slide>
-        <Slide><CSSIntro.InlineBlockElement /></Slide>
         <Slide><CSSIntro.BlockElement /></Slide>
-        <Slide><CSSIntro.TableElement /></Slide>
-        <Slide><CSSIntro.FormElement /></Slide>
-        <Slide><CSSIntro.PseudoElement /></Slide>
+        <Slide><CSSIntro.InlineElement /></Slide>
         <Slide><CSSIntro.AnatomyOfARule /></Slide>
         {/** CSSBasics Section */}
-        <Slide><CSSBasics.Heading /></Slide>
         <Slide><CSSBasics.SelectorsHeading /></Slide>
         <Slide><CSSBasics.LotOfWaysToSelect /></Slide>
         <Slide><CSSBasics.SimpleSelectors /></Slide>
         <Slide><CSSBasics.PseudoSelectors /></Slide>
+        <Slide><CSSBasics.PseudoElement /></Slide>
+        <Slide><CSSBasics.PseudoClasses /></Slide>
         <Slide><CSSBasics.ComplexSelectors /></Slide>
         <Slide><CSSBasics.CompoundSelectors /></Slide>
         <Slide><CSSBasics.SpecificityHeading /></Slide>
         <Slide><CSSBasics.SpecificityIntent /></Slide>
         <Slide><CSSBasics.SpecificityRules /></Slide>
-        <Slide><CSSBasics.SpecificityExamples /></Slide>
+        <Slide><CSSBasics.SpecificityExamples1 /></Slide>
+        <Slide><CSSBasics.SpecificityExamples2 /></Slide>
+        <Slide><CSSBasics.SpecificityExamples3 /></Slide>
+        <Slide><CSSBasics.SpecificityExamples4 /></Slide>
+        <Slide><CSSBasics.SpecificityExamples5 /></Slide>
+        <Slide><CSSBasics.SpecificityExamples6 /></Slide>
+        <Slide><CSSBasics.SpecificityExamples7 /></Slide>
+        <Slide><CSSBasics.SpecificityExamples8 /></Slide>
         <Slide><CSSBasics.CascadeHeading /></Slide>
         <Slide><CSSBasics.WhyDoesntThisWork /></Slide>
         <Slide><CSSBasics.LastShows /></Slide>
         <Slide><CSSBasics.LastShowsExample /></Slide>
+        <Slide><CSSBasics.LastShowsExample2 /></Slide>
         <Slide><CSSBasics.BoxModelHeading /></Slide>
         <Slide><CSSBasics.BoxModelImage /></Slide>
         <Slide><CSSBasics.BoxModelScrollbars /></Slide>

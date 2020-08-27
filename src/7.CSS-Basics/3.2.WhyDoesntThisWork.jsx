@@ -3,7 +3,7 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading>Why Doesn't my CSS Rule work</Heading>
+        <Heading className="centered-image">Warum funktionieren meine styles nicht?</Heading>
     );
 }
 export default SubHeading;
