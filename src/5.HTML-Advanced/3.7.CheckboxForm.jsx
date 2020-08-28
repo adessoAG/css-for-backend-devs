@@ -4,7 +4,7 @@ import { Heading, Image, Link } from 'spectacle';
 function SubHeading() {
     return (
         <div>
-            <Heading fontSize="h2">So können Formulare auch aussehen</Heading>
+            <Heading fontSize="h3">So können Formulare auch aussehen</Heading>
             <div className="centered">
                 <Image width="600" src="frontend/sitzplan-formular.png"></Image>
                 <br />

@@ -5,7 +5,7 @@ import lightTheme from 'prism-react-renderer/themes/nightOwlLight';
 function SubHeading() {
     return (
         <div className="centered">
-            <Heading>Der Tabellen-Body</Heading>
+            <Heading fontSize="h3">Der Tabellen-Body</Heading>
             <CodePane language="html" theme={lightTheme}>
                 {`<table>
     <!-- ..... -->

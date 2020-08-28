@@ -6,7 +6,7 @@ import '../prism.css';
 function SubHeading() {
     return (
         <div>
-            <Heading fontSize="h2">Valide ≠ <mark>richtig</mark>!</Heading>
+            <Heading fontSize="h2">Valide ≠ Sematisch Korrekt!</Heading>
             <CodePane language="html" theme={lightTheme}>
                 {`<!DOCTYPE html>
 <html>

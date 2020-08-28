@@ -6,7 +6,7 @@ function SubHeading() {
     return (
         <div>
             <Heading>Semantisches HTML</Heading>
-            <Text>Wenn für einen Inhalt ein passendes HTML-Element existiert, nutzen Sie es. DIV und SPAN sind nur Not-Behelfe. Auch WAI-ARIA sollte nur als Ausnahme eingesetzt werden.</Text>
+            <Text>Wenn für einen Inhalt ein passendes HTML-Element existiert, nutzen Sie es. DIV und SPAN sind nur Not-elemente. Auch WAI-ARIA sollte nur als Ausnahme eingesetzt werden.</Text>
             <CodePane language="html" theme={lightTheme}>
                 {`
                 <!-- So ist es korrekt -->

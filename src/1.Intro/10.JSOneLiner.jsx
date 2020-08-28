@@ -3,7 +3,7 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading className="centered">Mit Javascript kann man webseiten dynamisch gestalten</Heading>
+        <Heading fontSize="h3" className="centered">Mit Javascript kann man webseiten dynamisch gestalten.</Heading>
     );
 }
 export default SubHeading;

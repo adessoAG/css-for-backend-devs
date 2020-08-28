@@ -3,7 +3,12 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading className="centered" fontSize="h3">Auch wenn Sie <mark>CSS in JS</mark> schreiben und nur noch Komponenten in React, Angular oder Vue erstellen, <mark>am Ende ist alles HTML und CSS</mark>. Die Art der Erzeugung ändert nichts an den Regeln der beiden Sprachen.</Heading>
+        <Heading className="centered" fontSize="h3">
+            Angular, React, Vue Komponenten
+            <br />
+            <br />
+            sind auch HTML und CSS.
+        </Heading>
     );
 }
 export default SubHeading;
