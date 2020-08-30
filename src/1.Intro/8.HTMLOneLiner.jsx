@@ -1,9 +1,15 @@
 import React from 'react';
-import { Heading } from 'spectacle';
+import { Heading, Table, TableRow, TableCell, Image } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading fontSize="h3" className="centered" >HTML strukturiert den Inhalt einer Seite und gibt ihm Sinn.</Heading>
+        <Table className="centered">
+            <TableRow>
+                <TableCell><Image className="hori-centered" src="frontend/html.png"></Image></TableCell>
+                <TableCell width="60%"><Heading fontSize="h3" >HTML strukturiert den Inhalt einer Seite und gibt ihm Sinn.</Heading></TableCell>
+            </TableRow>
+        </Table>
+
     );
 }
 export default SubHeading;

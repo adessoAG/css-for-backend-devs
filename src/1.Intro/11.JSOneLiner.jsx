@@ -1,9 +1,15 @@
 import React from 'react';
-import { Heading } from 'spectacle';
+import { Heading, Table, TableRow, TableCell, Image } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading fontSize="h3" className="centered">Mit Javascript kann man webseiten dynamisch gestalten.</Heading>
+        <Table className="centered">
+            <TableRow>
+                <TableCell><Image width="45%" className="hori-centered" src="frontend/js.png"></Image></TableCell>
+                <TableCell width="60%"><Heading fontSize="h3" >Mit Javascript kann man webseiten dynamisch gestalten.</Heading></TableCell>
+            </TableRow>
+        </Table>
+
     );
 }
 export default SubHeading;
