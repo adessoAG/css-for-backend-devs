@@ -140,7 +140,7 @@ class App extends React.Component {
         <Slide><CSSBasics.ComplexSelectors /></Slide>
         <Slide><CSSBasics.CompoundSelectors /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><CSSBasics.SpecificityHeading /></div></Slide>
-        <Slide><CSSBasics.SpecificityIntent /></Slide>
+        <Slide backgroundImage="url(frontend/taraju.jpg)" backgroundSize="50%" backgroundOpacity="0.4"><CSSBasics.SpecificityIntent /></Slide>
         <Slide><CSSBasics.SpecificityRules /></Slide>
         <Slide><CSSBasics.SpecificityExamples1 /></Slide>
         <Slide><CSSBasics.SpecificityExamples2 /></Slide>
