@@ -192,6 +192,7 @@ class App extends React.Component {
         <Slide><CSSAdvanced.CSSProblemSolutions2 /></Slide>
         {/** Flexbox and Grid Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><FlexBoxAndGrid.FlexBoxHeading /></div></Slide>
+        <Slide><FlexBoxAndGrid.FlexTweet /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><FlexBoxAndGrid.GridHeading /></div></Slide>
 
         {/** End Section */}
@@ -199,7 +200,7 @@ class App extends React.Component {
         <Slide><End.ProgressiveEnhancementExample /></Slide>
         <Slide><End.CSSResetOrNormalizationHeading /></Slide>
         <Slide><End.CSSResetOrNormalizationContext /></Slide>
-        <Slide><End.ThankYou /></Slide>
+        <Slide backgroundColor="headSlide"><div className="head-slide"><End.ThankYou /></div></Slide>
       </Deck>
     );
   }
