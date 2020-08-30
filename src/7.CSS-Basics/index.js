@@ -17,6 +17,7 @@ import SpecificityExamples5 from './2.8.SpecificityExamples5';
 import SpecificityExamples6 from './2.8.SpecificityExamples6';
 import SpecificityExamples7 from './2.9.SpecificityExamples7';
 import SpecificityExamples8 from './2.10.SpecificityExamples8';
+import SpecificityExamples9 from './2.11.SpecificityExamples9';
 import CascadeHeading from './3.1.CascadeHeading';
 import WhyDoesntThisWork from './3.2.WhyDoesntThisWork';
 import LastShows from './3.3.LastShows';
@@ -48,6 +49,7 @@ const CSSBasics = {
     SpecificityExamples6,
     SpecificityExamples7,
     SpecificityExamples8,
+    SpecificityExamples9,
     CascadeHeading,
     WhyDoesntThisWork,
     LastShows,

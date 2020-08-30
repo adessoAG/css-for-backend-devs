@@ -3,9 +3,9 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading color="white" className="centered">
-            Ich Komme aus einer Welt, die du nicht verstehst!!
-        </Heading>
+        <div className="centered">
+            <Heading fontSize="h3">CSS Sizing Units</Heading>
+        </div>
     );
 }
 export default SubHeading;

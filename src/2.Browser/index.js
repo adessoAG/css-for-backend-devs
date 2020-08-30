@@ -4,9 +4,12 @@ import ThisWillBeWeb from './3.ThisWillBeWeb';
 import DominancesInWebWorld from './4.DominancesInWebWorld';
 import NothisIStimeless from './5.NothisIstimeless';
 import TheresNoPerfectBrowser from './6.TheresNoPerfectBrowser';
+import BrowserHosileEnvironment from './3.BrowserHosileEnvironment';
 
 const Browser = {
-    Heading, ThisIsWeb,
+    Heading,
+    ThisIsWeb,
+    BrowserHosileEnvironment,
     ThisWillBeWeb,
     DominancesInWebWorld,
     NothisIStimeless,

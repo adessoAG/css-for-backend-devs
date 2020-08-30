@@ -4,6 +4,9 @@ import HTMLStructure from './3.1.HTMLStructure';
 import PeriodicTable from './4.1.PeriodicTable';
 import Head from './5.1.Head';
 import HeadExample from './5.2.HeadExample';
+import ElementTypes from './5.3.ElementTypes';
+import BlockElement from './5.4.BlockElement';
+import InlineElement from './5.5.InlineElement';
 import ValidIsNotRight from './6.1.ValidIsNotRight';
 import ImagesHeading from './7.1.ImagesHeading';
 import ImageBasics from './7.2.ImageBasics';
@@ -20,6 +23,9 @@ const HTMLBasics = {
     PeriodicTable,
     Head,
     HeadExample,
+    ElementTypes,
+    BlockElement,
+    InlineElement,
     ValidIsNotRight,
     ImagesHeading,
     ImageBasics,

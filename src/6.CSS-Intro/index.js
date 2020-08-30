@@ -1,16 +1,14 @@
 import Heading from './1.1.Heading';
 import CSSHistory from './1.2.CSSHistory';
-import ElementTypes from './2.1.ElementTypes';
-import InlineElement from './2.3.InlineElement';
-import BlockElement from './2.2.BlockElement';
-import AnatomyOfARule from './3.1.AnatomyOfARule';
+import AnatomyOfARule from './2.1.AnatomyOfARule';
+import CSSProperties from './3.1.CSSProperties'
+import CSSSizes from './3.2.CSSSizes'
 
 const CSSIntro = {
     Heading,
     CSSHistory,
-    ElementTypes,
-    InlineElement,
-    BlockElement,
-    AnatomyOfARule
+    AnatomyOfARule,
+    CSSProperties,
+    CSSSizes,
 };
 export default CSSIntro;

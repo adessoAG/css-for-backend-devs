@@ -56,7 +56,6 @@ const theme = {
     height: 800,
   }
 };
-const url = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40' width='80' height='40'%3E%3Cpath fill='%23c5e3fe' fill-opacity='1' d='M0 40a19.96 19.96 0 0 1 5.9-14.11 20.17 20.17 0 0 1 19.44-5.2A20 20 0 0 1 20.2 40H0zM65.32.75A20.02 20.02 0 0 1 40.8 25.26 20.02 20.02 0 0 1 65.32.76zM.07 0h20.1l-.08.07A20.02 20.02 0 0 1 .75 5.25 20.08 20.08 0 0 1 .07 0zm1.94 40h2.53l4.26-4.24v-9.78A17.96 17.96 0 0 0 2 40zm5.38 0h9.8a17.98 17.98 0 0 0 6.67-16.42L7.4 40zm3.43-15.42v9.17l11.62-11.59c-3.97-.5-8.08.3-11.62 2.42zm32.86-.78A18 18 0 0 0 63.85 3.63L43.68 23.8zm7.2-19.17v9.15L62.43 2.22c-3.96-.5-8.05.3-11.57 2.4zm-3.49 2.72c-4.1 4.1-5.81 9.69-5.13 15.03l6.61-6.6V6.02c-.51.41-1 .85-1.48 1.33zM17.18 0H7.42L3.64 3.78A18 18 0 0 0 17.18 0zM2.08 0c-.01.8.04 1.58.14 2.37L4.59 0H2.07z'%3E%3C/path%3E%3C/svg%3E";
 class App extends React.Component {
 
   render() {
@@ -64,17 +63,18 @@ class App extends React.Component {
       <Deck transition={["zoom", "slide"]} template={template} theme={theme} transitionDuration={500}>
         {/** Intro Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><Intro.Heading /></div></Slide>
-        <Slide><Intro.FunnyStart /></Slide>
-        <Slide><Intro.BrowserHosileEnvironment /></Slide>
+        <Slide backgroundImage="url(frontend/alien.jpg)" backgroundOpacity="0.9" textColor="white"><Intro.FunnyStart /></Slide>
         <Slide><Intro.Before /></Slide>
         <Slide><Intro.Today /></Slide>
         <Slide><Intro.CSSInJs /></Slide>
+        <Slide><Intro.Trinity /></Slide>
         <Slide><Intro.HTMLOneLiner /></Slide>
         <Slide><Intro.CSSOneLiner /></Slide>
         <Slide><Intro.CSSLayoutAndDesign /></Slide>
         <Slide><Intro.JSOneLiner /></Slide>
         {/** Browser Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><Browser.Heading /></div></Slide>
+        <Slide><Browser.BrowserHosileEnvironment /></Slide>
         <Slide><Browser.ThisIsWeb /></Slide>
         <Slide><Browser.ThisWillBeWeb /></Slide>
         <Slide><Browser.DominancesInWebWorld /></Slide>
@@ -83,7 +83,6 @@ class App extends React.Component {
         {/** HTMLIntro Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLIntro.POSHHeading /></div></Slide>
         <Slide><HTMLIntro.HTMLHistory /></Slide>
-        <Slide><HTMLIntro.DecentMarkup /></Slide>
         <Slide><HTMLIntro.SemanticsHTML /></Slide>
         <Slide><HTMLIntro.SemanticsHTML2 /></Slide>
         <Slide><HTMLIntro.SemanticsHTML3 /></Slide>
@@ -94,6 +93,9 @@ class App extends React.Component {
         <Slide><HTMLBasics.PeriodicTable /></Slide>
         <Slide><HTMLBasics.Head /></Slide>
         <Slide><HTMLBasics.HeadExample /></Slide>
+        <Slide><HTMLBasics.ElementTypes /></Slide>
+        <Slide><HTMLBasics.BlockElement /></Slide>
+        <Slide><HTMLBasics.InlineElement /></Slide>
         <Slide><HTMLBasics.ValidIsNotRight /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLBasics.ImagesHeading /></div></Slide>
         <Slide><HTMLBasics.ImageBasics /></Slide>
@@ -125,10 +127,9 @@ class App extends React.Component {
         {/** CSSIntro Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><CSSIntro.Heading /></div></Slide>
         <Slide><CSSIntro.CSSHistory /></Slide>
-        <Slide><CSSIntro.ElementTypes /></Slide>
-        <Slide><CSSIntro.BlockElement /></Slide>
-        <Slide><CSSIntro.InlineElement /></Slide>
         <Slide><CSSIntro.AnatomyOfARule /></Slide>
+        <Slide><CSSIntro.CSSProperties /></Slide>
+        <Slide><CSSIntro.CSSSizes /></Slide>
         {/** CSSBasics Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><CSSBasics.SelectorsHeading /></div></Slide>
         <Slide><CSSBasics.LotOfWaysToSelect /></Slide>
@@ -149,6 +150,7 @@ class App extends React.Component {
         <Slide><CSSBasics.SpecificityExamples6 /></Slide>
         <Slide><CSSBasics.SpecificityExamples7 /></Slide>
         <Slide><CSSBasics.SpecificityExamples8 /></Slide>
+        <Slide><CSSBasics.SpecificityExamples9 /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><CSSBasics.CascadeHeading /></div></Slide>
         <Slide><CSSBasics.WhyDoesntThisWork /></Slide>
         <Slide><CSSBasics.LastShows /></Slide>
