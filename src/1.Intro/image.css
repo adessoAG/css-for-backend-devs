@@ -1,0 +1,10 @@
+.avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #0275d8;
+    padding: 10px;
+}
+td {
+    padding: 50px;
+}

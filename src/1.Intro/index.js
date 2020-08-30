@@ -1,4 +1,5 @@
 import Heading from './1.Heading';
+import Introduction from './2.1.Intro';
 import FunnyStart from './2.FunnyStart';
 import Before from './4.Before';
 import Today from './5.Today';
@@ -11,6 +12,7 @@ import JSOneLiner from './11.JSOneLiner';
 
 const Intro = {
     Heading,
+    Introduction,
     FunnyStart,
     Before,
     Today,

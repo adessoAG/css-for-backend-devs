@@ -63,6 +63,7 @@ class App extends React.Component {
       <Deck transition={["zoom", "slide"]} template={template} theme={theme} transitionDuration={500}>
         {/** Intro Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><Intro.Heading /></div></Slide>
+        <Slide><Intro.Introduction /></Slide>
         <Slide backgroundImage="url(frontend/alien.jpg)" backgroundOpacity="0.9" textColor="white"><Intro.FunnyStart /></Slide>
         <Slide><Intro.Before /></Slide>
         <Slide><Intro.Today /></Slide>
