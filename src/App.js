@@ -2,7 +2,6 @@ import React from 'react';
 import { Deck, Slide, FlexBox, Box, FullScreen, Image } from 'spectacle';
 import Intro from './1.Intro';
 import Browser from './2.Browser';
-import HTMLIntro from './3.HTML-Intro';
 import HTMLBasics from './4.HTML-Basics';
 import HTMLAdvanced from './5.HTML-Advanced';
 import CSSIntro from './6.CSS-Intro';
@@ -81,14 +80,9 @@ class App extends React.Component {
         <Slide><Browser.DominancesInWebWorld /></Slide>
         <Slide><Browser.NothisIStimeless /></Slide>
         <Slide><Browser.TheresNoPerfectBrowser /></Slide>
-        {/** HTMLIntro Section */}
-        <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLIntro.POSHHeading /></div></Slide>
-        <Slide><HTMLIntro.HTMLHistory /></Slide>
-        <Slide><HTMLIntro.SemanticsHTML /></Slide>
-        <Slide><HTMLIntro.SemanticsHTML2 /></Slide>
-        <Slide><HTMLIntro.SemanticsHTML3 /></Slide>
         {/** HTMLBasics Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLBasics.Heading /></div></Slide>
+        <Slide><HTMLBasics.HTMLHistory /></Slide>
         <Slide><HTMLBasics.Doctype /></Slide>
         <Slide><HTMLBasics.HTMLStructure /></Slide>
         <Slide><HTMLBasics.PeriodicTable /></Slide>
@@ -98,6 +92,9 @@ class App extends React.Component {
         <Slide><HTMLBasics.BlockElement /></Slide>
         <Slide><HTMLBasics.InlineElement /></Slide>
         <Slide><HTMLBasics.ValidIsNotRight /></Slide>
+        <Slide><HTMLBasics.SemanticsHTML /></Slide>
+        <Slide><HTMLBasics.SemanticsHTML2 /></Slide>
+        <Slide><HTMLBasics.SemanticsHTML3 /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLBasics.ImagesHeading /></div></Slide>
         <Slide><HTMLBasics.ImageBasics /></Slide>
         <Slide><HTMLBasics.AltTagMeme /></Slide>
