@@ -24,6 +24,10 @@ import Navigation from './3.6.Navigation';
 import HTMLExample from './3.7.HTMLExample';
 import CSSExample from './3.8.CSSExample';
 import Result from './3.9.Result';
+import CSSAwesome from './4.1.CSSAwesome';
+import CSSProblem from './4.2.CSSProblem';
+import CSSProblemSolutions from './4.3.CSSProblemSolutions';
+import CSSProblemSolutions2 from './4.4.CSSProblemSolutions2';
 
 const CSSAdvanced = {
     Floats,
@@ -51,6 +55,10 @@ const CSSAdvanced = {
     Navigation,
     HTMLExample,
     CSSExample,
-    Result
+    Result,
+    CSSAwesome,
+    CSSProblem,
+    CSSProblemSolutions,
+    CSSProblemSolutions2
 };
 export default CSSAdvanced;

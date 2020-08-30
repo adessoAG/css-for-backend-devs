@@ -186,6 +186,10 @@ class App extends React.Component {
         <Slide><CSSAdvanced.HTMLExample /></Slide>
         <Slide><CSSAdvanced.CSSExample /></Slide>
         <Slide><CSSAdvanced.Result /></Slide>
+        <Slide backgroundColor="headSlide"><div className="head-slide"><CSSAdvanced.CSSAwesome /></div></Slide>
+        <Slide><CSSAdvanced.CSSProblem /></Slide>
+        <Slide><CSSAdvanced.CSSProblemSolutions /></Slide>
+        <Slide><CSSAdvanced.CSSProblemSolutions2 /></Slide>
         {/** Flexbox and Grid Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><FlexBoxAndGrid.FlexBoxHeading /></div></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><FlexBoxAndGrid.GridHeading /></div></Slide>
