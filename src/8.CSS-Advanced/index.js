@@ -1,7 +1,6 @@
 import Floats from './1.1.Floats';
 import FloatsBackground from './1.2.FloatsBackground';
 import FloatAndClear from './1.3.FloatAndClear';
-import Clearing from './1.4.Clearing';
 import PositionHeading from './2.1.PositionHeading';
 import PositionExample from './2.2.PositionExample';
 import StaticPosition from './2.3.StaticPosition';
@@ -33,7 +32,6 @@ const CSSAdvanced = {
     Floats,
     FloatsBackground,
     FloatAndClear,
-    Clearing,
     PositionHeading,
     PositionExample,
     StaticPosition,

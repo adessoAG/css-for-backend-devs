@@ -1,14 +1,19 @@
 import React from 'react';
-import { Heading, Text } from 'spectacle';
+import {Heading, ListItem, Text, UnorderedList} from 'spectacle';
 
 function SubHeading() {
-    return (
-        <>
-            <Heading fontSize="h2">Nichts ist von Dauer</Heading>
-            <Text fontSize="35px">Als der IE6 weit über 90% Marktanteil hatte, konnte sich niemand einen Bruch des Browsermonopols von Microsoft vorstellen.</Text>
-            <Text fontSize="35px">Es ist deshalb sehr kurzsichtig, sich nur auf Chrome zu konzentrieren und alle anderen links liegen zu lassen.</Text>
-            <Text fontSize="35px">Der IE ist in großen Firmennetzwerken und Behörden noch länger von Bedeutung. Auch für Screenreadernutzer wird er weiterhin wichtig bleiben. Und: <mark>der IE wird nicht weiterentwickelt.</mark></Text>
-        </>
-    );
+  return (
+    <>
+      <Heading fontSize="h2">Nichts ist von Dauer</Heading>
+      <UnorderedList>
+        <ListItem><Text fontSize="35px">IE6 hatte mal über 90% Marktanteil! Trotzdem konnte das Browsermonopols von Microsoft gebrochen
+          werden!</Text></ListItem>
+        <ListItem><Text fontSize="35px">Es wäre sehr kurzsichtig, sich nur auf Chrome zu konzentrieren</Text></ListItem>
+        <ListItem><Text fontSize="35px">Der IE ist in großen Firmennetzwerken und Behörden immer noch von Bedeutung. Allerdings stellt
+          Microsoft den Support 2021 endgültig ein!</Text></ListItem>
+      </UnorderedList>
+    </>
+  );
 }
+
 export default SubHeading;

@@ -1,14 +1,19 @@
 import React from 'react';
-import { Heading, Text } from 'spectacle';
+import {Heading, ListItem, Text, UnorderedList} from 'spectacle';
 
 function SubHeading() {
-    return (
-        <>
-            <Heading fontSize="h2">Dominanzen</Heading>
-            <Text fontSize="35px">Aktuell dominiert Chrome die Landschaft. Dessen Engine <mark>Blink</mark> basiert auf <mark>Webkit</mark>, das zu Beginn eine Linux-Entwicklung war (KDE). Webkit treibt nur noch Safari (macOS und iOS) an. </Text>
-            <Text fontSize="35px">Blink wird auch von Opera und Vivaldi genutzt. Es gibt aber keine zwangsweise Parität in der Engine-Version zwischen diesen Browsern.</Text>
-            <Text fontSize="35px">Ausserdem gibt es noch Chromium, das die Basis des Android-Browser und weiterer unterschiedlicher <mark>Browser auf Android</mark> ist. Demnächst treibt es auch MS Edge an.</Text>
-        </>
-    );
+  return (
+    <>
+      <Heading fontSize="h2">Die Browser-Landschaft</Heading>
+      <UnorderedList>
+        <ListItem><Text fontSize="35px">Aktuell dominiert Chrome die Landschaft. Dessen Engine <mark>Blink</mark> basiert
+          auf <mark>Webkit</mark>.</Text></ListItem>
+        <ListItem><Text fontSize="35px">Blink wird auch von <mark>Opera</mark> und Vivaldi genutzt.</Text></ListItem>
+        <ListItem><Text fontSize="35px">Webkit treibt immer noch <mark>Safari</mark> (macOS und iOS) an.</Text></ListItem>
+        <ListItem><Text fontSize="35px">Der <mark>Android-Browser</mark> und der neue <mark>Edge</mark> basieren auf <mark>Chromium</mark>, und sind somit auch mit Chrome verwandt.</Text></ListItem>
+      </UnorderedList>
+    </>
+  );
 }
+
 export default SubHeading;

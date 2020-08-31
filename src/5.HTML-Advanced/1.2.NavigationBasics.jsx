@@ -7,13 +7,17 @@ function SubHeading() {
         <div className="centered">
             <Heading>Basics</Heading>
             <CodePane language="html" theme={lightTheme}>
-                {`<nav class="main-nav">
-    <ul class="main-nav__list">
-        <li><a href="#">Projektbegleitung und Coaching</a></li>
-        <li><a href="#">Training und Know How-Transfer</a></li>
-        <li><a href="#">Audit und Review</a></li>
-        <li><a href="#">Werkzeuge und Entwicklungsprozesse</a></li>
-        <li><a href="#">Organisation und Prozesse</a></li>
+                {`<nav>
+    <ul>
+        <li>
+          <a href="./p1.html">Seite1</a>
+        </li>
+        <li>
+          <a href="./p2.html">Seite2</a>
+        </li>
+        <li>
+          <a href="./p3.html">Seite3</a>
+        </li>
     </ul>
 </nav>`}
             </CodePane>
