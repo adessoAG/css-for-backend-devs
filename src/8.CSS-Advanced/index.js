@@ -1,6 +1,7 @@
 import Floats from './1.1.Floats';
 import FloatsBackground from './1.2.FloatsBackground';
 import FloatAndClear from './1.3.FloatAndClear';
+import FloatAufgabe from './1.4.FloatAufgabe';
 import PositionHeading from './2.1.PositionHeading';
 import PositionExample from './2.2.PositionExample';
 import StaticPosition from './2.3.StaticPosition';
@@ -23,6 +24,7 @@ import Navigation from './3.6.Navigation';
 import HTMLExample from './3.7.HTMLExample';
 import CSSExample from './3.8.CSSExample';
 import Result from './3.9.Result';
+import DisplayAufgabe from './3.10.DisplayAufgabe';
 import CSSAwesome from './4.1.CSSAwesome';
 import CSSProblem from './4.2.CSSProblem';
 import CSSProblemSolutions from './4.3.CSSProblemSolutions';
@@ -32,6 +34,7 @@ const CSSAdvanced = {
     Floats,
     FloatsBackground,
     FloatAndClear,
+    FloatAufgabe,
     PositionHeading,
     PositionExample,
     StaticPosition,
@@ -54,6 +57,7 @@ const CSSAdvanced = {
     HTMLExample,
     CSSExample,
     Result,
+    DisplayAufgabe,
     CSSAwesome,
     CSSProblem,
     CSSProblemSolutions,

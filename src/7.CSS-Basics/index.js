@@ -10,6 +10,7 @@ import ChildCombinator from './1.8.2.ChildCombinator';
 import SiblingCombinator from './1.8.3.SiblingCombinator';
 import SubsequentCombinator from './1.8.4.SubsequentCombinator';
 import CompoundSelectors from './1.9.CompoundSelectors';
+import SelectorAufgabe from './1.10.SelectorAufgabe';
 import SpecificityHeading from './2.1.SpecificityHeading';
 import SpecificityIntent from './2.2.SpecificityIntent';
 import SpecificityRules from './2.3.SpecificityRules';
@@ -31,7 +32,7 @@ import BoxModelHeading from './4.1.BoxModelHeading';
 import BoxModelImage from './4.2.BoxModelImage';
 import BoxModelScrollbars from './4.3.BoxModelScrollbars';
 import BoxModelScrollbars2 from './4.4.BoxModelScrollbars2';
-import Aufgaben from './4.5.Aufgaben';
+import BoxmodelAufgaben from './4.5.BoxmodelAufgabe';
 
 const CSSBasics = {
     SelectorsHeading,
@@ -46,6 +47,7 @@ const CSSBasics = {
     SiblingCombinator,
     SubsequentCombinator,
     CompoundSelectors,
+    SelectorAufgabe,
     SpecificityHeading,
     SpecificityIntent,
     SpecificityRules,
@@ -67,6 +69,6 @@ const CSSBasics = {
     BoxModelImage,
     BoxModelScrollbars,
     BoxModelScrollbars2,
-    Aufgaben
+    BoxmodelAufgaben
 };
 export default CSSBasics;

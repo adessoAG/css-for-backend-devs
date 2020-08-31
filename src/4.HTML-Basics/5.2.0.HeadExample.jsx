@@ -1,7 +1,6 @@
 import React from 'react';
 import { Heading, CodePane, Text, Table, TableBody, TableRow, TableCell, UnorderedList, ListItem } from 'spectacle';
 import lightTheme from 'prism-react-renderer/themes/nightOwlLight';
-import '../prism.css';
 
 function SubHeading() {
     return (
