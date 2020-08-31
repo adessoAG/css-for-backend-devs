@@ -170,7 +170,6 @@ class App extends React.Component {
         <Slide backgroundColor="headSlide"><div className="head-slide"><CSSAdvanced.Floats /></div></Slide>
         <Slide><CSSAdvanced.FloatsBackground /></Slide>
         <Slide><CSSAdvanced.FloatAndClear /></Slide>
-        <Slide><CSSAdvanced.Clearing /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><CSSAdvanced.PositionHeading /></div></Slide>
         <Slide><CSSAdvanced.PositionExample /></Slide>
         <Slide><CSSAdvanced.StaticPosition /></Slide>
