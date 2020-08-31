@@ -88,17 +88,18 @@ class App extends React.Component {
         <Slide><HTMLBasics.PeriodicTable /></Slide>
         <Slide><HTMLBasics.Head /></Slide>
         <Slide><HTMLBasics.HeadExample /></Slide>
+        <Slide><HTMLBasics.HeaderAufgabe /></Slide>
         <Slide><HTMLBasics.ElementTypes /></Slide>
         <Slide><HTMLBasics.BlockElement /></Slide>
         <Slide><HTMLBasics.InlineElement /></Slide>
         <Slide><HTMLBasics.ValidIsNotRight /></Slide>
         <Slide><HTMLBasics.SemanticsHTML /></Slide>
-        <Slide><HTMLBasics.SemanticsHTML2 /></Slide>
         <Slide><HTMLBasics.SemanticsHTML3 /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLBasics.ImagesHeading /></div></Slide>
         <Slide><HTMLBasics.ImageBasics /></Slide>
         <Slide><HTMLBasics.AltTagMeme /></Slide>
         <Slide><HTMLBasics.Figure /></Slide>
+        <Slide><HTMLBasics.ImageAufgabe /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLBasics.ResponsiveImageHeading /></div></Slide>
         <Slide><HTMLBasics.Picture /></Slide>
         <Slide><HTMLBasics.SrcSet /></Slide>
@@ -107,6 +108,7 @@ class App extends React.Component {
         <Slide><HTMLAdvanced.NavigationBasics /></Slide>
         <Slide><HTMLAdvanced.NavigationMoreInfo /></Slide>
         <Slide><HTMLAdvanced.NotEverytingIsNavigation /></Slide>
+        <Slide><HTMLAdvanced.NavigationAufgabe /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLAdvanced.TableHeading /></div></Slide>
         <Slide><HTMLAdvanced.TableSkeleton /></Slide>
         <Slide><HTMLAdvanced.TableHead /></Slide>
@@ -121,7 +123,7 @@ class App extends React.Component {
         <Slide><HTMLAdvanced.FormValidation /></Slide>
         <Slide><HTMLAdvanced.FormCrossBrowser /></Slide>
         <Slide><HTMLAdvanced.CheckboxForm /></Slide>
-        <Slide><HTMLAdvanced.Aufgabe /></Slide>
+        <Slide><HTMLAdvanced.FormAufgabe /></Slide>
         {/** CSSIntro Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><CSSIntro.Heading /></div></Slide>
         <Slide><CSSIntro.CSSHistory /></Slide>
@@ -145,6 +147,7 @@ class App extends React.Component {
         <Slide><CSSBasics.SiblingCombinator /></Slide>
         <Slide><CSSBasics.SubsequentCombinator /></Slide>
         <Slide><CSSBasics.CompoundSelectors /></Slide>
+        <Slide><CSSBasics.SelectorAufgabe /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><CSSBasics.SpecificityHeading /></div></Slide>
         <Slide backgroundImage="url(frontend/taraju.jpg)" backgroundSize="50%" backgroundOpacity="0.4"><CSSBasics.SpecificityIntent /></Slide>
         <Slide><CSSBasics.SpecificityRules /></Slide>
@@ -166,11 +169,12 @@ class App extends React.Component {
         <Slide><CSSBasics.BoxModelImage /></Slide>
         <Slide><CSSBasics.BoxModelScrollbars /></Slide>
         <Slide><CSSBasics.BoxModelScrollbars2 /></Slide>
-        <Slide><CSSBasics.Aufgaben /></Slide>
+        <Slide><CSSBasics.BoxmodelAufgaben /></Slide>
         {/** CSSAdvanced Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><CSSAdvanced.Floats /></div></Slide>
         <Slide><CSSAdvanced.FloatsBackground /></Slide>
         <Slide><CSSAdvanced.FloatAndClear /></Slide>
+        <Slide><CSSAdvanced.FloatAufgabe /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><CSSAdvanced.PositionHeading /></div></Slide>
         <Slide><CSSAdvanced.PositionExample /></Slide>
         <Slide><CSSAdvanced.StaticPosition /></Slide>
@@ -193,6 +197,7 @@ class App extends React.Component {
         <Slide><CSSAdvanced.HTMLExample /></Slide>
         <Slide><CSSAdvanced.CSSExample /></Slide>
         <Slide><CSSAdvanced.Result /></Slide>
+        <Slide><CSSAdvanced.DisplayAufgabe /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><CSSAdvanced.CSSAwesome /></div></Slide>
         <Slide><CSSAdvanced.CSSProblem /></Slide>
         <Slide><CSSAdvanced.CSSProblemSolutions /></Slide>
