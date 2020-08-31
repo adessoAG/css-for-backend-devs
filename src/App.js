@@ -82,7 +82,6 @@ class App extends React.Component {
         <Slide><Browser.TheresNoPerfectBrowser /></Slide>
         {/** HTMLBasics Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLBasics.Heading /></div></Slide>
-        <Slide><HTMLBasics.HTMLHistory /></Slide>
         <Slide><HTMLBasics.Doctype /></Slide>
         <Slide><HTMLBasics.HTMLStructure /></Slide>
         <Slide><HTMLBasics.PeriodicTable /></Slide>
@@ -128,6 +127,10 @@ class App extends React.Component {
         <Slide><CSSIntro.AnatomyOfARule /></Slide>
         <Slide><CSSIntro.CSSProperties /></Slide>
         <Slide><CSSIntro.CSSSizes /></Slide>
+        <Slide><CSSIntro.CSSHowTo /></Slide>
+        <Slide><CSSIntro.CSSHowTo1 /></Slide>
+        <Slide><CSSIntro.CSSHowTo2 /></Slide>
+        <Slide><CSSIntro.CSSHowTo3 /></Slide>
         {/** CSSBasics Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><CSSBasics.SelectorsHeading /></div></Slide>
         <Slide><CSSBasics.LotOfWaysToSelect /></Slide>
@@ -136,6 +139,10 @@ class App extends React.Component {
         <Slide><CSSBasics.PseudoClasses /></Slide>
         <Slide><CSSBasics.PseudoElement /></Slide>
         <Slide><CSSBasics.ComplexSelectors /></Slide>
+        <Slide><CSSBasics.DecendantCombinator /></Slide>
+        <Slide><CSSBasics.ChildCombinator /></Slide>
+        <Slide><CSSBasics.SiblingCombinator /></Slide>
+        <Slide><CSSBasics.SubsequentCombinator /></Slide>
         <Slide><CSSBasics.CompoundSelectors /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><CSSBasics.SpecificityHeading /></div></Slide>
         <Slide backgroundImage="url(frontend/taraju.jpg)" backgroundSize="50%" backgroundOpacity="0.4"><CSSBasics.SpecificityIntent /></Slide>

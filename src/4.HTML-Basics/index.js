@@ -1,5 +1,4 @@
 import Heading from './1.1.Heading';
-import HTMLHistory from './1.2.HTMLHistory';
 import Doctype from './2.1.Doctype';
 import HTMLStructure from './3.1.HTMLStructure';
 import PeriodicTable from './4.1.PeriodicTable';
@@ -22,7 +21,6 @@ import SrcSet from './8.3.SrcSet';
 
 const HTMLBasics = {
     Heading,
-    HTMLHistory,
     Doctype,
     HTMLStructure,
     PeriodicTable,
