@@ -4,7 +4,11 @@ import SimpleSelectors from './1.4.SimpleSelectors';
 import PseudoSelectors from './1.5.PseudoSelectors';
 import PseudoElement from './1.6.PseudoElement';
 import PseudoClasses from './1.7.PseudoClasses';
-import ComplexSelectors from './1.8.ComplexSelectors';
+import ComplexSelectors from './1.8.0.ComplexSelectors';
+import DecendantCombinator from './1.8.1.DecendantCombinator';
+import ChildCombinator from './1.8.2.ChildCombinator';
+import SiblingCombinator from './1.8.3.SiblingCombinator';
+import SubsequentCombinator from './1.8.4.SubsequentCombinator';
 import CompoundSelectors from './1.9.CompoundSelectors';
 import SpecificityHeading from './2.1.SpecificityHeading';
 import SpecificityIntent from './2.2.SpecificityIntent';
@@ -37,6 +41,10 @@ const CSSBasics = {
     PseudoElement,
     PseudoClasses,
     ComplexSelectors,
+    DecendantCombinator,
+    ChildCombinator,
+    SiblingCombinator,
+    SubsequentCombinator,
     CompoundSelectors,
     SpecificityHeading,
     SpecificityIntent,
