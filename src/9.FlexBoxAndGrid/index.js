@@ -5,6 +5,7 @@ import WhatIsGrid from './2.2.WhatIsGrid';
 import FlexboxVsGrid from './2.3.FlexboxVsGrid'
 import GridVorUndNachteile from './2.4.GridVorUndNachteile'
 import GridMagicWords from './2.5.GridMagicWords'
+import GridExample from './2.6.GridExample'
 
 const FlexBoxAndGrid = {
     FlexBoxHeading,
@@ -13,6 +14,7 @@ const FlexBoxAndGrid = {
     WhatIsGrid,
     FlexboxVsGrid,
     GridVorUndNachteile,
-    GridMagicWords
+    GridMagicWords,
+    GridExample
 };
 export default FlexBoxAndGrid;

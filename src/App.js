@@ -210,6 +210,7 @@ class App extends React.Component {
         <Slide><FlexBoxAndGrid.FlexboxVsGrid /></Slide>
         <Slide><FlexBoxAndGrid.GridVorUndNachteile /></Slide>
         <Slide><FlexBoxAndGrid.GridMagicWords /></Slide>
+        <Slide><FlexBoxAndGrid.GridExample /></Slide>
 
           {/** End Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><End.ProgressiveEnhancementIntro /></div></Slide>
