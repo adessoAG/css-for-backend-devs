@@ -82,7 +82,6 @@ class App extends React.Component {
         <Slide><Browser.TheresNoPerfectBrowser /></Slide>
         {/** HTMLBasics Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLBasics.Heading /></div></Slide>
-        <Slide><HTMLBasics.HTMLHistory /></Slide>
         <Slide><HTMLBasics.Doctype /></Slide>
         <Slide><HTMLBasics.HTMLStructure /></Slide>
         <Slide><HTMLBasics.PeriodicTable /></Slide>
