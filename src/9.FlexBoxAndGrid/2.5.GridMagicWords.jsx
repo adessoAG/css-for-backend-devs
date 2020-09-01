@@ -1,16 +1,15 @@
 import React from 'react';
-import { Heading } from 'spectacle';
+import { Heading, Text } from 'spectacle';
 
 function SubHeading() {
   return (
     <div>
       <Heading fontSize="h2">Magic Words</Heading>
+      <Heading fontSize="text">grid-template</Heading>
+      <Text className="text-centered">defines how your site will be arranged</Text>
 
-      <mark>grid-template</mark>
-      <div>defines how your site will be arranged</div>
-
-      <mark>grid-area</mark>
-      <div>defines that an element is part of the grid layout</div>
+      <Heading fontSize="text">grid-area</Heading>
+      <Text className="text-centered">defines that an element is part of the grid layout</Text>
 
     </div>
 

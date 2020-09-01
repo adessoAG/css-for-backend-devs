@@ -1,13 +1,23 @@
-import ProgressiveEnhancementIntro from './1.ProgressiveEnhancementIntro';
-import ProgressiveEnhancementExample from './2.ProgressiveEnhancementExample';
-import CSSResetOrNormalizationHeading from './3.CSSResetOrNormalizationHeading';
-import CSSResetOrNormalizationContext from './4.CSSResetOrNormalizationContext';
-import ThankYou from './5.ThankYou';
+import ProgressiveEnhancementIntro from './1.1.ProgressiveEnhancementIntro';
+import ProgressiveEnhancementExample from './1.2.ProgressiveEnhancementExample';
+import CSSResetOrNormalizationHeading from './2.1.CSSResetOrNormalizationHeading';
+import CSSResetOrNormalizationContext from './2.2.CSSResetOrNormalizationContext';
+import Responsive from './3.1.Responsive';
+import MediaQueries from './3.2.MediaQueries';
+import SomeRules from './3.3.SomeRules';
+import Aufgabe from './3.4.Aufgabe';
+
+import ThankYou from './4.0.ThankYou';
+
 const End = {
     ProgressiveEnhancementIntro,
     ProgressiveEnhancementExample,
     CSSResetOrNormalizationHeading,
     CSSResetOrNormalizationContext,
+    Responsive,
+    MediaQueries,
+    SomeRules,
+    Aufgabe,
     ThankYou
 };
 export default End;

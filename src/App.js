@@ -224,6 +224,10 @@ class App extends React.Component {
         <Slide><End.ProgressiveEnhancementExample /></Slide>
         <Slide><End.CSSResetOrNormalizationHeading /></Slide>
         <Slide><End.CSSResetOrNormalizationContext /></Slide>
+        <Slide backgroundColor="headSlide" ><div className="head-slide"><End.Responsive /></div></Slide>
+        <Slide><End.MediaQueries /></Slide>
+        <Slide><End.SomeRules /></Slide>
+        <Slide><End.Aufgabe /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><End.ThankYou /></div></Slide>
       </Deck>
     );

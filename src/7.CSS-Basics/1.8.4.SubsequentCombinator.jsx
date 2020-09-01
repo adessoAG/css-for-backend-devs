@@ -13,27 +13,27 @@ function SubHeading() {
                         <CodePane style={{ width: '60%' }} language="html" theme={lightTheme}>
                             {`< !DOCTYPE html>
 <html>
-                                <head>
-                                    <style>
-                                        .div ~ .p {
-                                            background - color: yellow;
-}
-</style>
-                                </head>
-                                <body>
+    <head>
+        <style>
+            .div ~ .p {
+                background - color: yellow;
+            }
+            </style>
+    </head>
+    <body>
 
-                                    <p class="p">Paragraph 1.</p>
+        <p class="p">Paragraph 1.</p>
 
-                                    <div class="div">
-                                        <p class="p">Paragraph 2.</p>
-                                    </div>
+        <div class="div">
+            <p class="p">Paragraph 2.</p>
+        </div>
 
-                                    <p class="p">Paragraph 3.</p>
-                                    <code>Some code.</code>
-                                    <p class="p">Paragraph 4.</p>
+        <p class="p">Paragraph 3.</p>
+        <code>Some code.</code>
+        <p class="p">Paragraph 4.</p>
 
-                                </body>
-                            </html>
+    </body>
+</html>
 `}
                         </CodePane>
                     </TableCell>
