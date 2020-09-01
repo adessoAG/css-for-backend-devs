@@ -19,14 +19,14 @@ const template = ({ slideNumber }) => {
   const width = slideNumber === 0 ? '106' : '70';
   const height = slideNumber === 0 ? '40' : '70';
   return html`
-  <${FlexBox} color="red" justifyContent="space-between" position="fixed" right=${0}>
+  <${FlexBox} justifyContent="space-between" position="fixed" right=${0}>
     <${Box} padding="1em">
       <${Image} height="${height}px" width="${width}px" src="${img}" />
     </${Box}>
   </${FlexBox}>
-  <${FlexBox} color="red" justifyContent="space-between" position="absolute" bottom=${0} width=${1}>
+  <${FlexBox} justifyContent="space-between" position="absolute" bottom=${0} width=${1}>
     <${Box} padding="0 1em">
-      <${FullScreen} />
+      <${FullScreen} color="rgb(2,117,216, 0.5)" />
     </${Box}>
   </${FlexBox}>`;
 }
