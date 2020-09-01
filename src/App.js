@@ -11,7 +11,6 @@ import FlexBoxAndGrid from './9.FlexBoxAndGrid';
 import End from './10.End';
 import htm from 'htm';
 import './App.css';
-import GridMagicWords from "./9.FlexBoxAndGrid/2.5.GridMagicWords";
 
 const html = htm.bind(React.createElement);
 
@@ -205,6 +204,14 @@ class App extends React.Component {
         {/** Flexbox and Grid Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><FlexBoxAndGrid.FlexBoxHeading /></div></Slide>
         <Slide><FlexBoxAndGrid.FlexTweet /></Slide>
+        <Slide><FlexBoxAndGrid.FlexContainer /></Slide>
+        <Slide><FlexBoxAndGrid.FlexDirection /></Slide>
+        <Slide><FlexBoxAndGrid.FlexWrap /></Slide>
+        <Slide><FlexBoxAndGrid.JustifyContent /></Slide>
+        <Slide><FlexBoxAndGrid.AlignItems /></Slide>
+        <Slide><FlexBoxAndGrid.AlignSelf /></Slide>
+        <Slide><FlexBoxAndGrid.Flex /></Slide>
+        <Slide><FlexBoxAndGrid.FlexAufgabe /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><FlexBoxAndGrid.GridHeading /></div></Slide>
         <Slide><FlexBoxAndGrid.WhatIsGrid /></Slide>
         <Slide><FlexBoxAndGrid.FlexboxVsGrid /></Slide>
@@ -212,7 +219,7 @@ class App extends React.Component {
         <Slide><FlexBoxAndGrid.GridMagicWords /></Slide>
         <Slide><FlexBoxAndGrid.GridExample /></Slide>
 
-          {/** End Section */}
+        {/** End Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><End.ProgressiveEnhancementIntro /></div></Slide>
         <Slide><End.ProgressiveEnhancementExample /></Slide>
         <Slide><End.CSSResetOrNormalizationHeading /></Slide>
