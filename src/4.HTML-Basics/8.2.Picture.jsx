@@ -10,7 +10,7 @@ function SubHeading() {
                 {`<picture>
     <source media="(min-width: 800px)"
             srcset="big.jpg 1x, big-hd.jpg 2x">
-    <source srcset="small.jpg 1x, small-hd.jpg 2x">
+    <source media="(max-width:400px)" srcset="small.jpg 1x, small-hd.jpg 2x">
     <img src="fallback.jpg" alt="Tolle Bildbeschreibung">
 </picture>`}
             </CodePane>
