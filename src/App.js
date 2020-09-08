@@ -165,6 +165,7 @@ class App extends React.Component {
         <Slide><CSSBasics.LastShowsExample /></Slide>
         <Slide><CSSBasics.LastShowsExample2 /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><CSSBasics.BoxModelHeading /></div></Slide>
+        <Slide><CSSBasics.EverythingIsABox /></Slide>
         <Slide><CSSBasics.BoxModelImage /></Slide>
         <Slide><CSSBasics.BoxModelScrollbars /></Slide>
         <Slide><CSSBasics.BoxModelScrollbars2 /></Slide>

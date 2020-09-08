@@ -29,9 +29,10 @@ import LastShows from './3.3.LastShows';
 import LastShowsExample from './3.4.LastShowsExample';
 import LastShowsExample2 from './3.5.LastShowsExample1';
 import BoxModelHeading from './4.1.BoxModelHeading';
-import BoxModelImage from './4.2.BoxModelImage';
-import BoxModelScrollbars from './4.3.BoxModelScrollbars';
-import BoxModelScrollbars2 from './4.4.BoxModelScrollbars2';
+import EverythingIsABox from './4.2.EverythingIsABox';
+import BoxModelImage from './4.3.BoxModelImage';
+import BoxModelScrollbars from './4.4.BoxModelScrollbars';
+import BoxModelScrollbars2 from './4.6.BoxModelScrollbars2';
 import BoxmodelAufgaben from './4.5.BoxmodelAufgabe';
 
 const CSSBasics = {
@@ -66,6 +67,7 @@ const CSSBasics = {
     LastShowsExample,
     LastShowsExample2,
     BoxModelHeading,
+    EverythingIsABox,
     BoxModelImage,
     BoxModelScrollbars,
     BoxModelScrollbars2,
