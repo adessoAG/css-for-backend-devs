@@ -25,7 +25,7 @@ function SubHeading() {
                     <TableCell width="50%">
                         <Heading fontSize="text">Konstantin Pentarakis</Heading>
                         <UnorderedList>
-                            <ListItem>Frontend-Architekt bei Adesso.</ListItem>
+                            <ListItem>Frontend-Architekt</ListItem>
                             <ListItem>Leiter eines JavaScript Competence Centers.</ListItem>
                             <ListItem>16 Jahre in der Web-entwicklung.</ListItem>
                         </UnorderedList>
