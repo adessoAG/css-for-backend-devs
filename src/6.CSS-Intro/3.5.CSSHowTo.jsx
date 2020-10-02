@@ -6,7 +6,7 @@ function SubHeading() {
     return (
         <div>
             <Heading fontSize="h3">So fügt man CSS hinzu</Heading>
-            <Heading fontSize="text">Interne CSS</Heading>
+            <Heading fontSize="text">Internes CSS</Heading>
             <Table>
                 <TableRow>
                     <TableCell>

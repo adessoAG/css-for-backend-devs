@@ -3,7 +3,9 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading className="centered">HTML Basics</Heading>
+      <div className="centered heading">
+        <Heading>HTML Basics</Heading>
+      </div>
     );
 }
 export default SubHeading;

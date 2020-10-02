@@ -6,8 +6,8 @@ function SubHeading() {
         <div className="centered">
             <Heading fontSize="h3">So fügt man CSS hinzu</Heading>
             <UnorderedList>
-                <ListItem>Externe CSS</ListItem>
-                <ListItem>Interne CSS</ListItem>
+                <ListItem>Externes CSS</ListItem>
+                <ListItem>Internes CSS</ListItem>
                 <ListItem>Inline CSS</ListItem>
             </UnorderedList>
         </div>

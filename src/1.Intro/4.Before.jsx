@@ -4,7 +4,9 @@ import { UnorderedList, ListItem, Heading } from 'spectacle';
 function SubHeading() {
     return (
         <>
-            <Heading fontSize="h2">Früher ...</Heading>
+          <div className="centered">
+
+          <Heading fontSize="h2">Früher ...</Heading>
             <UnorderedList>
                 <ListItem>Editor auf</ListItem>
                 <ListItem>HTML schreiben</ListItem>
@@ -12,6 +14,8 @@ function SubHeading() {
                 <ListItem>JS irgendwoher kopieren und modifizieren</ListItem>
                 <ListItem>FTP auf den Server</ListItem>
             </UnorderedList>
+
+          </div>
         </>
     );
 }

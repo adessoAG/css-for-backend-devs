@@ -7,11 +7,11 @@ function SubHeading() {
         <div className="centered">
             <Heading fontSize="h3">Media Queries</Heading>
             <CodePane language="css" theme={lightTheme}>
-                {`@media ( min - width : 575px ) {
+                {`@media ( min-width : 575px ) {
     article {
         width : 550px ;
-        margin - left : auto ;
-        margin - right : auto ;
+        margin-left : auto ;
+        margin-right : auto ;
     }
 }`}
             </CodePane>

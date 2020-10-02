@@ -3,7 +3,9 @@ import { Image } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Image className="centered" width="50%" src="frontend/alt-tag.jpg"></Image>
+      <div className="centered heading">
+        <Image className="centered" width="60" src="frontend/alt-tag.jpg"></Image>
+      </div>
     );
 }
 export default SubHeading;

@@ -3,7 +3,7 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading className="centered" fontSize="h3">
+        <Heading className="centered heading" fontSize="h3">
             Angular, React, Vue Komponenten
             <br />
             <br />

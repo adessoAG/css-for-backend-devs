@@ -5,7 +5,7 @@ import './last.css';
 function SubHeading() {
     return (
         <div className="relative">
-            <Heading className="centered">Thank You</Heading>
+            <Heading className="centered heading">Thank You</Heading>
             <div className="note note-1"><div className="sketchy">Animations</div></div>
             <div className="note note-2"><div className="sketchy">Stacking context</div></div>
             <div className="note note-3"><div className="sketchy">CSS Functions</div></div>

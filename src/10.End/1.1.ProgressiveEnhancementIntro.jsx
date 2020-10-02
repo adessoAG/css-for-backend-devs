@@ -3,7 +3,7 @@ import { Heading } from 'spectacle';
 
 function SubHeading() {
     return (
-        <Heading className="centered">
+        <Heading className="centered heading">
             Feature Queries -
 Progressive Enhancement mit Bordmitteln</Heading>
     );

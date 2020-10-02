@@ -5,7 +5,7 @@ function SubHeading() {
     return (
         <div className="centered">
             <Heading className="underline" fontSize="h2">Aufgabe</Heading>
-            <Text>Fügen Sie colors und styles zu dem Form und Navigation</Text>
+            <Text>Ändern Sie das Styling des Formulars und der Navigation</Text>
             <Link target="_blank" href="https://github.com/adessoAG/css-for-backend-devs-aufgaben" className="text-centered">zum Beispiel</Link>
         </div>
     );

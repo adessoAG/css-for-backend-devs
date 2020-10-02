@@ -15,7 +15,7 @@ function SubHeading() {
                         <UnorderedList>
                             <ListItem>Senior Software Engineer bei Adesso.</ListItem>
                             <ListItem>Speaker, Writer.</ListItem>
-                            <ListItem>5 Jahre in der Web-entwicklung.</ListItem>
+                            <ListItem>5 Jahre in der Web-Entwicklung.</ListItem>
                             <ListItem>Twittert unter @piyukore06.</ListItem>
                         </UnorderedList>
                     </TableCell>
@@ -26,8 +26,10 @@ function SubHeading() {
                         <Heading fontSize="text">Konstantin Pentarakis</Heading>
                         <UnorderedList>
                             <ListItem>Frontend-Architekt</ListItem>
-                            <ListItem>Leiter eines JavaScript Competence Centers.</ListItem>
-                            <ListItem>16 Jahre in der Web-entwicklung.</ListItem>
+                            <ListItem>Spezialisierung: Entwicklung komplexer Web-Anwendungen (SPAs, PWAs, ...)</ListItem>
+                            <ListItem>16 Jahre in der Web-Entwicklung</ListItem>
+                            <ListItem>7 Jahre Trainer-Erfahrung</ListItem>
+                            <ListItem>Diplom der Angewandten Informatik</ListItem>
                         </UnorderedList>
                     </TableCell>
                     <TableCell>
