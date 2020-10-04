@@ -3,13 +3,13 @@ import { Heading, Text } from 'spectacle';
 
 function SubHeading() {
   return (
-    <div>
-      <Heading fontSize="h2">Magic Words</Heading>
+    <div className="centered">
+      <Heading>Magic Words</Heading>
       <Heading fontSize="text">grid-template</Heading>
-      <Text className="text-centered">defines how your site will be arranged</Text>
+      <Text className="text-centered">Definiert die Anordnung der einzelnen Seitenbestandteile ("Areas").</Text>
 
       <Heading fontSize="text">grid-area</Heading>
-      <Text className="text-centered">defines that an element is part of the grid layout</Text>
+      <Text className="text-centered">Macht ein Element zu einer Grid-Area, die über das Template angeordnet werden kann.</Text>
 
     </div>
 
