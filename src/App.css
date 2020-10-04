@@ -11,6 +11,10 @@ body {
    background-color: #EEEEEE;
  }
 
+.vertical-align-top {
+  vertical-align: top;
+}
+
 .centered.heading {
   background-color: inherit;
 }

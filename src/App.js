@@ -29,7 +29,7 @@ const template = ({ slideNumber }) => {
       <${FullScreen} color="rgb(2,117,216, 0.5)" />
     </${Box}>
   </${FlexBox}>`;
-}
+};
 
 const theme = {
   colors: {
@@ -106,7 +106,6 @@ class App extends React.Component {
         <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLAdvanced.NavigationHeading /></div></Slide>
         <Slide><HTMLAdvanced.NavigationBasics /></Slide>
         <Slide><HTMLAdvanced.NavigationMoreInfo /></Slide>
-        <Slide><HTMLAdvanced.NotEverytingIsNavigation /></Slide>
         <Slide><HTMLAdvanced.NavigationAufgabe /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLAdvanced.TableHeading /></div></Slide>
         <Slide><HTMLAdvanced.TableSkeleton /></Slide>
@@ -183,11 +182,9 @@ class App extends React.Component {
         <Slide><CSSAdvanced.AbsolutePositionWithoutZIndex /></Slide>
         <Slide><CSSAdvanced.AbsolutePositionWithZIndex /></Slide>
         <Slide><CSSAdvanced.TheContextIsImp /></Slide>
-        <Slide><CSSAdvanced.RelativeWithZIndex /></Slide>
         <Slide><CSSAdvanced.FixedOrSticky /></Slide>
         <Slide><CSSAdvanced.ZIndexJoke /></Slide>
         <Slide><CSSAdvanced.Codepen /></Slide>
-        <Slide><CSSAdvanced.Aufgabe /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><CSSAdvanced.DisplayHeading /></div></Slide>
         <Slide><CSSAdvanced.DisplayDefinition /></Slide>
         <Slide><CSSAdvanced.DisplayOptions /></Slide>

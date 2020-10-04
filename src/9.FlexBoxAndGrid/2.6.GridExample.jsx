@@ -1,13 +1,13 @@
 import React from 'react';
-import { Heading, Image } from 'spectacle';
+import {Heading, Image, Link, Text} from 'spectacle';
 
 function SubHeading() {
   return (
-    <div>
-      <Heading fontSize="h2">Was ist CSS-Grid?</Heading>
-      <Image className="hori-centered" src="frontend/css-grid.png"></Image>
-    </div>
-
+      <div className="centered">
+          <Heading className="underline" fontSize="h2">Aufgabe</Heading>
+          <Text>Layout mit Hilfe von CSS Grid so verändern, dass das Menü als Seitenmenü links neben dem Content angezeigt wird.</Text>
+          <Link target="_blank" href="https://github.com/adessoAG/css-for-backend-devs-aufgaben" className="text-centered">zum Beispiel</Link>
+      </div>
   );
 }
 export default SubHeading;

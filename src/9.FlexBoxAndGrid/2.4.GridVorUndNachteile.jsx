@@ -18,7 +18,7 @@ function SubHeading() {
               <ListItem>Eigene „Maßeinheit“ zur verhältnismäßigen Höhen-/Breitendefinition</ListItem>
             </UnorderedList>
           </TableCell>
-          <TableCell>
+          <TableCell className="vertical-align-top">
             Nachteile:
               <UnorderedList>
               <ListItem>Anpassungen zur Nutzung unter IE11 nötig (mögliche Lösung: Auto-Prefixer)</ListItem>

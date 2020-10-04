@@ -1,9 +1,16 @@
 import React from 'react';
-import { Text } from 'spectacle';
+import {Heading, ListItem, Text, UnorderedList} from 'spectacle';
 
 function SubHeading() {
     return (
-        <Text className="centered">Auch 2019 sehen die Formularelemente <mark>nicht</mark> in allen Browsern gleich aus, lassen sich identisch bedienen oder sind gar in allen Screenreadern gleichmäßig gut implementiert. Leider.</Text>
+        <div className="centered">
+            <Heading>Eingebaute Validierung - Nachteile</Heading>
+            <UnorderedList>
+                <ListItem>Verhalten und Aussehen unterscheidet sich von Browser zu Browser!</ListItem>
+                <ListItem>Styling nur eingeschränkt möglich.</ListItem>
+                <ListItem>Komplexe Validierungslogik lässt sich nicht umsetzen (z.B. abhängige Felder).</ListItem>
+            </UnorderedList>
+        </div>
     );
 }
 export default SubHeading;

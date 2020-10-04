@@ -10,11 +10,9 @@ import AbsolutePosition from './2.5.AbsolutePosition';
 import AbsolutePositionWithoutZIndex from './2.6.AbsolutePositionWithoutZIndex';
 import AbsolutePositionWithZIndex from './2.7.AbsolutePositionWithZIndex';
 import TheContextIsImp from './2.8.TheContextIsImp';
-import RelativeWithZIndex from './2.9.RelativeWithZIndex';
 import FixedOrSticky from './2.10.FixedOrSticky';
 import ZIndexJoke from './2.11.ZIndexJoke';
 import Codepen from './2.12.Codepen';
-import Aufgabe from './2.13.Aufgabe';
 import DisplayHeading from './3.1.DisplayHeading';
 import DisplayDefinition from './3.2.DisplayDefinition';
 import DisplayOptions from './3.3.DisplayOptions';
@@ -43,11 +41,9 @@ const CSSAdvanced = {
     AbsolutePositionWithoutZIndex,
     AbsolutePositionWithZIndex,
     TheContextIsImp,
-    RelativeWithZIndex,
     FixedOrSticky,
     ZIndexJoke,
     Codepen,
-    Aufgabe,
     DisplayHeading,
     DisplayDefinition,
     DisplayOptions,

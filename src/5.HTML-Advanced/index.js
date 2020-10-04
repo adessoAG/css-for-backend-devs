@@ -1,7 +1,6 @@
 import NavigationHeading from './1.1.NavigationHeading';
 import NavigationBasics from './1.2.NavigationBasics';
 import NavigationMoreInfo from './1.3.NavigationMoreInfo';
-import NotEverytingIsNavigation from './1.4.NotEverytingIsNavigation';
 import NavigationAufgabe from './1.5.NavigationAufgabe';
 import TableHeading from './2.1.TableHeading';
 import TableSkeleton from './2.2.TableSkeleton';
@@ -23,7 +22,6 @@ const HTMLAdvanced = {
     NavigationHeading,
     NavigationBasics,
     NavigationMoreInfo,
-    NotEverytingIsNavigation,
     NavigationAufgabe,
     TableHeading,
     TableSkeleton,

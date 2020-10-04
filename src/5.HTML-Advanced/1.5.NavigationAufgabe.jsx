@@ -5,7 +5,7 @@ function SubHeading() {
   return (
     <div className="centered">
       <Heading className="underline" fontSize="h2">Aufgabe</Heading>
-      <Text>Fügen Sie Navigation Elemente zu</Text>
+      <Text>Ergänzen Sie Unterseiten und eine Navigation</Text>
       <Link target="_blank" href="https://github.com/adessoAG/css-for-backend-devs-aufgaben" className="text-centered">zum Beispiel</Link>
     </div>
   );

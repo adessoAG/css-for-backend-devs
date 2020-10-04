@@ -1,12 +1,15 @@
 import React from 'react';
-import { Text, Heading } from 'spectacle';
+import { Heading, UnorderedList, ListItem} from 'spectacle';
 
 function SubHeading() {
     return (
         <div className="centered">
             <Heading>Eingebaute Validierung</Heading>
-            <Text>Manche Formularelemente besitzen eingebaute Validierungsregeln. Die können jederzeit mit einer eigenen Regex überschrieben werden.</Text>
-            <Text>Dank HTML5 gibt es eine Validierungs-API, die man nutzen kann. Es muss nicht jeder sein eigenes Validierungsskript schreiben.</Text>
+            <UnorderedList>
+                <ListItem>Manche Formularelemente besitzen eingebaute Validierungsregeln (z.B. email).</ListItem>
+                <ListItem>Validierungsregeln können mit Regex ergänzt oder überschrieben werden (pattern-Attribut).</ListItem>
+                <ListItem>Weitere Möglichkeiten wie z.b. "required".</ListItem>
+            </UnorderedList>
         </div>
     );
 }
