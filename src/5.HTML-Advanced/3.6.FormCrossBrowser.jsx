@@ -1,5 +1,5 @@
 import React from 'react';
-import {Heading, ListItem, Text, UnorderedList} from 'spectacle';
+import { Heading, ListItem, UnorderedList } from 'spectacle';
 
 function SubHeading() {
     return (

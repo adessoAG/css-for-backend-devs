@@ -5,7 +5,7 @@ import lightTheme from 'prism-react-renderer/themes/nightOwlLight';
 function SubHeading() {
     return (
         <div className="centered">
-            <Heading fontSize="h3">Sehr wichtige Bestandteile des HEAD</Heading>
+            <Heading fontSize="h3">Skeleton von Basic HTML Seite</Heading>
             <Table>
                 <TableBody>
                     <TableRow>

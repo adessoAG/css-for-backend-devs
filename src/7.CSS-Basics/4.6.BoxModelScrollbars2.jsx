@@ -4,9 +4,9 @@ import { Link, Image } from 'spectacle';
 function SubHeading() {
     return (
         <div className="centered">
-            <Image width="110%" src="frontend/boxmodell-scrollbar.png"></Image>
+            <Image className="hori-centered" width="70%" src="frontend/boxmodell-scrollbar.png"></Image>
             <br />
-            <Link target="_blank" href="https://codepen.io/argyleink/pen/bGNmgGW">zum Codepen</Link>
+            <Link className="hori-centered" target="_blank" href="https://codepen.io/argyleink/pen/bGNmgGW">zum Codepen</Link>
         </div>
     );
 }

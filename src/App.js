@@ -63,7 +63,7 @@ class App extends React.Component {
         {/** Intro Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><Intro.Heading /></div></Slide>
         <Slide><Intro.Introduction /></Slide>
-        <Slide backgroundImage="url(frontend/alien.jpg)" backgroundOpacity="0.9" textColor="white"><Intro.FunnyStart /></Slide>
+        <Slide backgroundImage="url(frontend/alien.jpg)" backgroundOpacity={0.9} textColor="white"><Intro.FunnyStart /></Slide>
         <Slide><Intro.Before /></Slide>
         <Slide><Intro.Today /></Slide>
         <Slide><Intro.CSSInJs /></Slide>
@@ -93,7 +93,7 @@ class App extends React.Component {
         <Slide><HTMLBasics.InlineElement /></Slide>
         <Slide><HTMLBasics.ValidIsNotRight /></Slide>
         <Slide><HTMLBasics.SemanticsHTML /></Slide>
-        <Slide><HTMLBasics.SemanticsHTML3 /></Slide>
+        {/* <Slide><HTMLBasics.SemanticsHTML3 /></Slide> */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLBasics.ImagesHeading /></div></Slide>
         <Slide><HTMLBasics.ImageBasics /></Slide>
         <Slide><HTMLBasics.AltTagMeme /></Slide>
@@ -147,7 +147,7 @@ class App extends React.Component {
         <Slide><CSSBasics.CompoundSelectors /></Slide>
         <Slide><CSSBasics.SelectorAufgabe /></Slide>
         <Slide backgroundColor="headSlide"><div className="head-slide"><CSSBasics.SpecificityHeading /></div></Slide>
-        <Slide backgroundImage="url(frontend/taraju.jpg)" backgroundSize="50%" backgroundOpacity="0.4"><CSSBasics.SpecificityIntent /></Slide>
+        <Slide backgroundImage="url(frontend/taraju.jpg)" backgroundSize="50%" backgroundOpacity={0.4}><CSSBasics.SpecificityIntent /></Slide>
         <Slide><CSSBasics.SpecificityRules /></Slide>
         <Slide><CSSBasics.SpecificityExamples1 /></Slide>
         <Slide><CSSBasics.SpecificityExamples2 /></Slide>
