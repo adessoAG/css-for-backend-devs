@@ -1,14 +1,18 @@
 import React from 'react';
-import { UnorderedList, ListItem } from 'spectacle';
+import {UnorderedList, ListItem, Heading} from 'spectacle';
 
 function SubHeading() {
     return (
-        <UnorderedList className="centered">
-            <ListItem>Use relative units</ListItem>
-            <ListItem>Define transition points</ListItem>
-            <ListItem>Optimize text for reading</ListItem>
-            <ListItem>Never completely hide content</ListItem>
-        </UnorderedList>
+        <div className="centered">
+            <Heading>Ein paar Grundregeln</Heading>
+
+            <UnorderedList className="centered">
+                <ListItem>Relative Einheiten benutzen</ListItem>
+                <ListItem>Übergangspunkte definieren</ListItem>
+                <ListItem>Text für das Lesen optimieren</ListItem>
+                <ListItem>Niemals Content vollständig verbergen</ListItem>
+            </UnorderedList>
+        </div>
     );
 }
 export default SubHeading;
